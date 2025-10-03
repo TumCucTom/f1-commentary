@@ -1,0 +1,3315 @@
+{
+  "race_info": {
+    "data_file": "detailed_telemetry_analysis.json",
+    "model_used": "llama-3.1-8b-instant",
+    "total_commentaries": 10,
+    "commentator_style": "David Crofty (Sky Sports)"
+  },
+  "commentaries": [
+    {
+      "incident": {
+        "lap": 2,
+        "time": "2024-07-21 13:05:08",
+        "message": "TURN 1 INCIDENT INVOLVING CAR 1 (VER) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "category": "Other",
+        "drivers": [
+          "1"
+        ],
+        "steward_action": "Noted",
+        "telemetry_analysis": {
+          "VER": {
+            "driver_number": "1",
+            "lap_data": {
+              "lap_1": {
+                "lap_number": 1,
+                "lap_time": "0 days 00:01:28.336000",
+                "position": 2,
+                "sector1_time": "nan",
+                "sector2_time": "0 days 00:00:30.558000",
+                "sector3_time": "0 days 00:00:23.329000",
+                "speed_i1": 272.0,
+                "speed_i2": 236.0,
+                "speed_fl": 246.0,
+                "speed_st": 248.0,
+                "compound": "MEDIUM",
+                "tyre_life": 1,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_2": {
+                "lap_number": 2,
+                "lap_time": "0 days 00:01:24.026000",
+                "position": 2,
+                "sector1_time": "0 days 00:00:29.907000",
+                "sector2_time": "0 days 00:00:30.574000",
+                "sector3_time": "0 days 00:00:23.545000",
+                "speed_i1": null,
+                "speed_i2": 235.0,
+                "speed_fl": 244.0,
+                "speed_st": 287.0,
+                "compound": "MEDIUM",
+                "tyre_life": 2,
+                "is_personal_best": true,
+                "track_status": 1
+              },
+              "lap_3": {
+                "lap_number": 3,
+                "lap_time": "0 days 00:01:24.075000",
+                "position": 2,
+                "sector1_time": "0 days 00:00:29.983000",
+                "sector2_time": "0 days 00:00:30.562000",
+                "sector3_time": "0 days 00:00:23.530000",
+                "speed_i1": 276.0,
+                "speed_i2": 235.0,
+                "speed_fl": 243.0,
+                "speed_st": 285.0,
+                "compound": "MEDIUM",
+                "tyre_life": 3,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_4": {
+                "lap_number": 4,
+                "lap_time": "0 days 00:01:26.075000",
+                "position": 3,
+                "sector1_time": "0 days 00:00:32.067000",
+                "sector2_time": "0 days 00:00:30.541000",
+                "sector3_time": "0 days 00:00:23.467000",
+                "speed_i1": 280.0,
+                "speed_i2": 238.0,
+                "speed_fl": 249.0,
+                "speed_st": 287.0,
+                "compound": "MEDIUM",
+                "tyre_life": 4,
+                "is_personal_best": false,
+                "track_status": 1
+              }
+            },
+            "analysis": {
+              "speed_analysis": {
+                "max_speed": 249.0,
+                "min_speed": 243.0,
+                "speed_variance": 6.0,
+                "incident_lap_speed": 244.0
+              },
+              "sector_analysis": {
+                "slowest_sectors": {
+                  "sector1": "nan",
+                  "sector2": "0 days 00:00:30.574000",
+                  "sector3": "0 days 00:00:23.545000"
+                },
+                "incident_lap_sectors": {
+                  "sector1": "0 days 00:00:29.907000",
+                  "sector2": "0 days 00:00:30.574000",
+                  "sector3": "0 days 00:00:23.545000"
+                }
+              },
+              "tire_analysis": {
+                "compounds_used": [
+                  "MEDIUM"
+                ],
+                "incident_lap_tire": {
+                  "compound": "MEDIUM",
+                  "tyre_life": 2
+                },
+                "tire_age_at_incident": 2
+              },
+              "position_analysis": {
+                "position_range": "2 - 3",
+                "position_change": 1,
+                "incident_lap_position": 2
+              },
+              "anomalies": []
+            }
+          }
+        }
+      },
+      "commentary": "(Excited tone) AND WE'RE LIVE, FOLKS! Lap 2 underway, and we've got a bit of a situation brewing in Turn 1! Car 1, Verstappen, is the one in question. We've just seen him leave the track and gain an advantage... (pausing for dramatic effect) AND THE FIA STWARDS ARE TAKING NOTE OF THIS!\n\n(On the edge of his seat) Oh my goodness, we're in for a treat here! Verstappen's got no intention of letting that advantage slip away. He's now in second place, with a blistering speed of 244.0 km/h! That's just 2 seconds faster than his first lap! (pausing) The question on everyone's mind: what was he thinking?\n\n(Cautious tone) Now, we know the teams have been pushing the limits of what's acceptable this season. But this... (pausing for emphasis) this is a different story altogether! Verstappen's telemetry data shows a lap time of 0 days 00:01:24.026000 - that's some seriously quick driving!\n\n(Intense) We're going to have to keep a close eye on this one",
+      "type": "incident"
+    },
+    {
+      "incident": {
+        "lap": 3,
+        "time": "2024-07-21 13:06:11",
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 1 (VER) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "category": "Other",
+        "drivers": [
+          "1"
+        ],
+        "steward_action": "Under investigation",
+        "telemetry_analysis": {
+          "VER": {
+            "driver_number": "1",
+            "lap_data": {
+              "lap_1": {
+                "lap_number": 1,
+                "lap_time": "0 days 00:01:28.336000",
+                "position": 2,
+                "sector1_time": "nan",
+                "sector2_time": "0 days 00:00:30.558000",
+                "sector3_time": "0 days 00:00:23.329000",
+                "speed_i1": 272.0,
+                "speed_i2": 236.0,
+                "speed_fl": 246.0,
+                "speed_st": 248.0,
+                "compound": "MEDIUM",
+                "tyre_life": 1,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_2": {
+                "lap_number": 2,
+                "lap_time": "0 days 00:01:24.026000",
+                "position": 2,
+                "sector1_time": "0 days 00:00:29.907000",
+                "sector2_time": "0 days 00:00:30.574000",
+                "sector3_time": "0 days 00:00:23.545000",
+                "speed_i1": null,
+                "speed_i2": 235.0,
+                "speed_fl": 244.0,
+                "speed_st": 287.0,
+                "compound": "MEDIUM",
+                "tyre_life": 2,
+                "is_personal_best": true,
+                "track_status": 1
+              },
+              "lap_3": {
+                "lap_number": 3,
+                "lap_time": "0 days 00:01:24.075000",
+                "position": 2,
+                "sector1_time": "0 days 00:00:29.983000",
+                "sector2_time": "0 days 00:00:30.562000",
+                "sector3_time": "0 days 00:00:23.530000",
+                "speed_i1": 276.0,
+                "speed_i2": 235.0,
+                "speed_fl": 243.0,
+                "speed_st": 285.0,
+                "compound": "MEDIUM",
+                "tyre_life": 3,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_4": {
+                "lap_number": 4,
+                "lap_time": "0 days 00:01:26.075000",
+                "position": 3,
+                "sector1_time": "0 days 00:00:32.067000",
+                "sector2_time": "0 days 00:00:30.541000",
+                "sector3_time": "0 days 00:00:23.467000",
+                "speed_i1": 280.0,
+                "speed_i2": 238.0,
+                "speed_fl": 249.0,
+                "speed_st": 287.0,
+                "compound": "MEDIUM",
+                "tyre_life": 4,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_5": {
+                "lap_number": 5,
+                "lap_time": "0 days 00:01:23.979000",
+                "position": 3,
+                "sector1_time": "0 days 00:00:29.670000",
+                "sector2_time": "0 days 00:00:30.615000",
+                "sector3_time": "0 days 00:00:23.694000",
+                "speed_i1": 281.0,
+                "speed_i2": 235.0,
+                "speed_fl": 249.0,
+                "speed_st": 301.0,
+                "compound": "MEDIUM",
+                "tyre_life": 5,
+                "is_personal_best": true,
+                "track_status": 1
+              }
+            },
+            "analysis": {
+              "speed_analysis": {
+                "max_speed": 249.0,
+                "min_speed": 243.0,
+                "speed_variance": 6.0,
+                "incident_lap_speed": 243.0
+              },
+              "sector_analysis": {
+                "slowest_sectors": {
+                  "sector1": "nan",
+                  "sector2": "0 days 00:00:30.615000",
+                  "sector3": "0 days 00:00:23.694000"
+                },
+                "incident_lap_sectors": {
+                  "sector1": "0 days 00:00:29.983000",
+                  "sector2": "0 days 00:00:30.562000",
+                  "sector3": "0 days 00:00:23.530000"
+                }
+              },
+              "tire_analysis": {
+                "compounds_used": [
+                  "MEDIUM"
+                ],
+                "incident_lap_tire": {
+                  "compound": "MEDIUM",
+                  "tyre_life": 3
+                },
+                "tire_age_at_incident": 3
+              },
+              "position_analysis": {
+                "position_range": "2 - 3",
+                "position_change": 1,
+                "incident_lap_position": 2
+              },
+              "anomalies": []
+            }
+          }
+        }
+      },
+      "commentary": "(Excited, dramatic tone) AND HERE WE GO, FOLKS! WE'VE GOT DRAMA ALREADY IN THE FIRST FEW LAPS OF THIS RACE! VER is involved in a controversy at Turn 1, and the FIA stewards are taking a close look.\n\n(Crofty pauses for a dramatic moment, eyes on the action)\n\nWE'VE GOT THE TELECHEMA DATA COMING IN, AND VER'S BEEN DRIVING WELL. LAP 2, POSITION 2, SPEED 244.0 KM/H, LAP TIME 0 DAYS 00:01:24.026000. BUT WAIT, WHAT'S HAPPENING NOW? VER'S LEAVING THE TRACK, GAINING AN ADVANTAGE! AND THE FIA STEWARDS ARE ON IT, FOLKS!\n\n(The crowd is on the edge of their seats)\n\nTHE QUESTION ON EVERYONE'S MIND: HAS VER BENEFITED UNFAIRLY FROM THAT MANOEUVRE? THE FIA STEWARDS ARE UNDER INVESTIGATION, AND WE'RE WAITING WITH BATED BREATH FOR THEIR DECISION.\n\n(Crofty's voice is building in excitement)\n\nVER'S TELECHEMA DATA SHOWS HE WAS TRAVELLING AT",
+      "type": "incident"
+    },
+    {
+      "incident": {
+        "lap": 4,
+        "time": "2024-07-21 13:07:48",
+        "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 1 (VER) NO FURTHER ACTION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+        "category": "Other",
+        "drivers": [
+          "1"
+        ],
+        "steward_action": "No further action",
+        "telemetry_analysis": {
+          "VER": {
+            "driver_number": "1",
+            "lap_data": {
+              "lap_2": {
+                "lap_number": 2,
+                "lap_time": "0 days 00:01:24.026000",
+                "position": 2,
+                "sector1_time": "0 days 00:00:29.907000",
+                "sector2_time": "0 days 00:00:30.574000",
+                "sector3_time": "0 days 00:00:23.545000",
+                "speed_i1": null,
+                "speed_i2": 235.0,
+                "speed_fl": 244.0,
+                "speed_st": 287.0,
+                "compound": "MEDIUM",
+                "tyre_life": 2,
+                "is_personal_best": true,
+                "track_status": 1
+              },
+              "lap_3": {
+                "lap_number": 3,
+                "lap_time": "0 days 00:01:24.075000",
+                "position": 2,
+                "sector1_time": "0 days 00:00:29.983000",
+                "sector2_time": "0 days 00:00:30.562000",
+                "sector3_time": "0 days 00:00:23.530000",
+                "speed_i1": 276.0,
+                "speed_i2": 235.0,
+                "speed_fl": 243.0,
+                "speed_st": 285.0,
+                "compound": "MEDIUM",
+                "tyre_life": 3,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_4": {
+                "lap_number": 4,
+                "lap_time": "0 days 00:01:26.075000",
+                "position": 3,
+                "sector1_time": "0 days 00:00:32.067000",
+                "sector2_time": "0 days 00:00:30.541000",
+                "sector3_time": "0 days 00:00:23.467000",
+                "speed_i1": 280.0,
+                "speed_i2": 238.0,
+                "speed_fl": 249.0,
+                "speed_st": 287.0,
+                "compound": "MEDIUM",
+                "tyre_life": 4,
+                "is_personal_best": false,
+                "track_status": 1
+              },
+              "lap_5": {
+                "lap_number": 5,
+                "lap_time": "0 days 00:01:23.979000",
+                "position": 3,
+                "sector1_time": "0 days 00:00:29.670000",
+                "sector2_time": "0 days 00:00:30.615000",
+                "sector3_time": "0 days 00:00:23.694000",
+                "speed_i1": 281.0,
+                "speed_i2": 235.0,
+                "speed_fl": 249.0,
+                "speed_st": 301.0,
+                "compound": "MEDIUM",
+                "tyre_life": 5,
+                "is_personal_best": true,
+                "track_status": 1
+              },
+              "lap_6": {
+                "lap_number": 6,
+                "lap_time": "0 days 00:01:24.255000",
+                "position": 3,
+                "sector1_time": "0 days 00:00:29.875000",
+                "sector2_time": "0 days 00:00:30.464000",
+                "sector3_time": "0 days 00:00:23.916000",
+                "speed_i1": 279.0,
+                "speed_i2": 238.0,
+                "speed_fl": 244.0,
+                "speed_st": 302.0,
+                "compound": "MEDIUM",
+                "tyre_life": 6,
+                "is_personal_best": false,
+                "track_status": 1
+              }
+            },
+            "analysis": {
+              "speed_analysis": {
+                "max_speed": 249.0,
+                "min_speed": 243.0,
+                "speed_variance": 6.0,
+                "incident_lap_speed": 249.0
+              },
+              "sector_analysis": {
+                "slowest_sectors": {
+                  "sector1": "0 days 00:00:32.067000",
+                  "sector2": "0 days 00:00:30.615000",
+                  "sector3": "0 days 00:00:23.916000"
+                },
+                "incident_lap_sectors": {
+                  "sector1": "0 days 00:00:32.067000",
+                  "sector2": "0 days 00:00:30.541000",
+                  "sector3": "0 days 00:00:23.467000"
+                }
+              },
+              "tire_analysis": {
+                "compounds_used": [
+                  "MEDIUM"
+                ],
+                "incident_lap_tire": {
+                  "compound": "MEDIUM",
+                  "tyre_life": 4
+                },
+                "tire_age_at_incident": 4
+              },
+              "position_analysis": {
+                "position_range": "2 - 3",
+                "position_change": 1,
+                "incident_lap_position": 3
+              },
+              "anomalies": [
+                "Position drop: 1 positions"
+              ]
+            }
+          }
+        }
+      },
+      "commentary": "(Deep, dramatic voice) AND WE'RE LIVE HERE AT THE FORMULA ONE WORLD CHAMPIONSHIP, FOLKS! We've got a dramatic scene unfolding in front of us, as the drivers take to the track for another high-stakes battle for the top step of the podium. The tension is palpable, the competition is fierce, and the crowd is on the edge of their seats. AND HERE WE GO, as the cars hurtle around the circuit!\n\n(Crowd noise building in the background)\n\nWe're on lap 4, and the action has already started to unfold. Carlos Sainz in P2, just a fraction of a second behind Max Verstappen in P1, the Red Bull Racing driver carving through the corners with ease. BUT WAIT, folks, we've got an incident unfolding at Turn 1! The stewards are scrambling to get a look at the footage, and it looks like Max Verstappen has been involved in a bit of a kerfuffle!\n\n(Crowd gasps in anticipation)\n\nOH MY GOODNESS! The stewards are consulting with each other, and it looks like they're reviewing the footage. The tension is building, folks! We're all on the edge of",
+      "type": "incident"
+    },
+    {
+      "position_change": {
+        "driver": "STR",
+        "lap": 15,
+        "from_position": 8,
+        "to_position": 16,
+        "change": -8,
+        "lap_time": "0 days 00:01:44.868000",
+        "prev_lap_time": "0 days 00:01:28.097000",
+        "compound": "MEDIUM",
+        "tyre_life": 2,
+        "telemetry_comparison": {
+          "lap_time_change": "+16.771s",
+          "speed_changes": {
+            "SpeedI1": "-5.0 km/h",
+            "SpeedI2": "+0.0 km/h"
+          },
+          "sector_changes": {
+            "Sector1Time": "+19.260s",
+            "Sector2Time": "-0.016s",
+            "Sector3Time": "-2.473s"
+          },
+          "tire_changes": {
+            "compound_change": "SOFT \u2192 MEDIUM",
+            "tyre_life_change": "-15 laps"
+          },
+          "anomalies": [
+            "Significant lap time change: +16.771s",
+            "Significant Sector1Time change: +19.260s",
+            "Significant Sector3Time change: -2.473s"
+          ]
+        }
+      },
+      "commentary": "AND HERE WE GO! STR, a dramatic position change unfolding before our very eyes! The driver has plummeted from 8th to 16th position, an astonishing 8-place drop! This is absolute DRAMA, folks! The lap time? A blistering 1:44.868, but what's so striking is the massive +16.771s increase in lap time compared to the previous lap. That's an astonishing 16 and a half seconds added to their time!\n\nAND LOOK AT THE SPEED! The SpeedI1 has dropped by a significant 5 kilometers per hour, but the SpeedI2 remains steady at 0.0 kilometers per hour. It's a fascinating tactical move, but what's really caught our attention is the sector times. The Sector1Time has ballooned by +19.260 seconds, a huge increase, while the Sector2Time has actually shaved off a mere 0.016 seconds. BUT Sector 3 has shown a tiny glimmer of hope, with a -2.473 second improvement.\n\nNow, the big question on everyone's mind: what led to this precipitous drop? The driver has switched from SOFT tires to MEDIUM, a deliberate tactical choice, but it's",
+      "type": "position_change"
+    },
+    {
+      "position_change": {
+        "driver": "RIC",
+        "lap": 8,
+        "from_position": 10,
+        "to_position": 18,
+        "change": -8,
+        "lap_time": "0 days 00:01:43.084000",
+        "prev_lap_time": "0 days 00:01:26.300000",
+        "compound": "HARD",
+        "tyre_life": 1,
+        "telemetry_comparison": {
+          "lap_time_change": "+16.784s",
+          "speed_changes": {
+            "SpeedI1": "-13.0 km/h",
+            "SpeedI2": "-3.0 km/h"
+          },
+          "sector_changes": {
+            "Sector1Time": "+18.120s",
+            "Sector2Time": "+0.872s",
+            "Sector3Time": "-2.208s"
+          },
+          "tire_changes": {
+            "compound_change": "MEDIUM \u2192 HARD",
+            "tyre_life_change": "-6 laps"
+          },
+          "anomalies": [
+            "Significant lap time change: +16.784s",
+            "Significant Sector1Time change: +18.120s",
+            "Significant Sector2Time change: +0.872s",
+            "Significant Sector3Time change: -2.208s"
+          ]
+        }
+      },
+      "commentary": "(Dramatic music plays in the background)\n\nAND HERE WE GO! We've got a massive drama unfolding before our very eyes, folks! Daniel Ricciardo, the Australian ace, is in FREEFALL! He's plummeted from 10th to 18th position in the blink of an eye!\n\n(Crowd noise builds up)\n\nRicciardo's lap time is a staggering 1 minute, 43.084 seconds! That's a whopping 16.784 seconds slower than his previous lap! WHAT A MOMENT! We're seeing a complete and utter meltdown from the Aussie driver!\n\n(Lap time appears on screen)\n\n1:43.084! That's the lap time, folks! And what's the damage? Ricciardo's lost 8 positions in just one lap! He's gone from 10th to 18th! The hard compound was supposed to give him an edge, but it's clearly not working for him today!\n\n(Telemetry comparison appears on screen)\n\nNow let's take a look at those telemetry metrics. We're seeing a significant lap time change of +16.784 seconds! And in Sector 1, a massive 18.120 seconds increase! That's like driving through",
+      "type": "position_change"
+    },
+    {
+      "position_change": {
+        "driver": "HUL",
+        "lap": 30,
+        "from_position": 11,
+        "to_position": 19,
+        "change": -8,
+        "lap_time": "0 days 00:01:42.766000",
+        "prev_lap_time": "0 days 00:01:27.890000",
+        "compound": "HARD",
+        "tyre_life": 1,
+        "telemetry_comparison": {
+          "lap_time_change": "+14.876s",
+          "speed_changes": {
+            "SpeedI1": "-2.0 km/h",
+            "SpeedI2": "+2.0 km/h"
+          },
+          "sector_changes": {
+            "Sector1Time": "+18.351s",
+            "Sector2Time": "-0.409s",
+            "Sector3Time": "-3.066s"
+          },
+          "tire_changes": {
+            "tyre_life_change": "-26 laps"
+          },
+          "anomalies": [
+            "Significant lap time change: +14.876s",
+            "Significant Sector1Time change: +18.351s",
+            "Significant Sector3Time change: -3.066s"
+          ]
+        }
+      },
+      "commentary": "AND HERE WE GO! Welcome back to the thrilling world of Formula One, folks! We've got a drama unfolding right before our eyes! Nico Hulkenberg, the German driver, has just suffered a calamitous fall from 11th to 19th position, a staggering eight places back! \n\nOH MY GOODNESS! What a collapse! His lap time has blown out to +14.876 seconds longer than his previous best! That's a massive difference, folks. We can see the numbers ticking over on the board, and it's a bleak picture for Hulkenberg.\n\nSpeed is everything in F1, and we're witnessing a speed deficit here. He's lost 2 kilometers per hour in Sector 1, but then somehow gained it back in Sector 2. The Sector 3 timing is where it's all gone wrong, though. A staggering 3.066 seconds slower than before. THAT'S THE WRITTEN SIGN OF FRICTION!\n\nAND THE TELEMETRY IS TELLING US HE'S LOST 26 LAPS' WORTH OF TYRE LIFE IN THIS LAP ALONE! That's catastrophic, folks. The hard compound Hulkenberg was running on has clearly given way",
+      "type": "position_change"
+    },
+    {
+      "violation": {
+        "lap": 12,
+        "time": "2024-07-21 13:19:02",
+        "driver_number": "10",
+        "driver_abbreviation": "GAS",
+        "deleted_time": "1:26.461",
+        "turn": "11",
+        "message": "CAR 10 (GAS) TIME 1:26.461 DELETED - TRACK LIMITS AT TURN 11 LAP 11 15:18:32",
+        "telemetry_analysis": {
+          "lap_data": {
+            "lap_11": {
+              "lap_number": 11,
+              "lap_time": "0 days 00:01:26.461000",
+              "position": 12,
+              "sector1_time": "0 days 00:00:30.392000",
+              "sector2_time": "0 days 00:00:30.876000",
+              "sector3_time": "0 days 00:00:25.193000",
+              "speed_i1": null,
+              "speed_i2": 185.0,
+              "speed_fl": 245.0,
+              "speed_st": null,
+              "compound": "HARD",
+              "tyre_life": 11,
+              "is_personal_best": false
+            },
+            "lap_12": {
+              "lap_number": 12,
+              "lap_time": "0 days 00:01:25.543000",
+              "position": 12,
+              "sector1_time": "0 days 00:00:30.340000",
+              "sector2_time": "0 days 00:00:30.894000",
+              "sector3_time": "0 days 00:00:24.309000",
+              "speed_i1": null,
+              "speed_i2": 231.0,
+              "speed_fl": 244.0,
+              "speed_st": 288.0,
+              "compound": "HARD",
+              "tyre_life": 12,
+              "is_personal_best": false
+            },
+            "lap_13": {
+              "lap_number": 13,
+              "lap_time": "0 days 00:01:25.579000",
+              "position": 12,
+              "sector1_time": "0 days 00:00:30.441000",
+              "sector2_time": "0 days 00:00:31.022000",
+              "sector3_time": "0 days 00:00:24.116000",
+              "speed_i1": 277.0,
+              "speed_i2": 231.0,
+              "speed_fl": 245.0,
+              "speed_st": null,
+              "compound": "HARD",
+              "tyre_life": 13,
+              "is_personal_best": false
+            }
+          },
+          "analysis": {
+            "speed_analysis": {
+              "max_speed": 245.0,
+              "min_speed": 244.0,
+              "violation_lap_speed": 244.0
+            },
+            "sector_analysis": {
+              "sector1_time": "0 days 00:00:30.340000",
+              "sector2_time": "0 days 00:00:30.894000",
+              "sector3_time": "0 days 00:00:24.309000"
+            },
+            "anomalies": []
+          }
+        }
+      },
+      "commentary": "(in a dramatic, excited tone) AND HERE WE GO! We've got a situation unfolding here, folks! It's Lap 12 and George Russell, number 63, is right on the tail of his teammate, Lance Stroll. They're into Turn 11, the high-speed sequence of corners, and George is going for the undercut, trying to get the better of his teammate.\n\n(Gas pedal sound effects and engine roar)\n\nAnd Russell's on the move, pushing the limits, pushing the car to its absolute maximum, but... OH MY GOODNESS! Has he done it again?! It looks like it, folks, a track limits violation! The deleted time is 1:26.461, and it's been logged as a track limits infringement at Turn 11, Lap 12!\n\n(Breathy pause)\n\nLet's take a look at the telemetry analysis. The data's coming in, and it's telling us that on the previous lap, Russell was doing 245 kilometers per hour, but on this lap, he's been clocked at 244 kilometers per hour... INCREDIBLE! The car is going at an incredibly high speed, but it's that extra little bit of pace that's caught him out.\n\n(",
+      "type": "track_limits"
+    },
+    {
+      "violation": {
+        "lap": 34,
+        "time": "2024-07-21 13:49:47",
+        "driver_number": "81",
+        "driver_abbreviation": "PIA",
+        "deleted_time": "1:25.863",
+        "turn": "11",
+        "message": "CAR 81 (PIA) TIME 1:25.863 DELETED - TRACK LIMITS AT TURN 11 LAP 33 15:49:00",
+        "telemetry_analysis": {
+          "lap_data": {
+            "lap_33": {
+              "lap_number": 33,
+              "lap_time": "0 days 00:01:25.863000",
+              "position": 1,
+              "sector1_time": "0 days 00:00:30.044000",
+              "sector2_time": "0 days 00:00:30.614000",
+              "sector3_time": "0 days 00:00:25.205000",
+              "speed_i1": 275.0,
+              "speed_i2": 204.0,
+              "speed_fl": 243.0,
+              "speed_st": 289.0,
+              "compound": "HARD",
+              "tyre_life": 16,
+              "is_personal_best": false
+            },
+            "lap_34": {
+              "lap_number": 34,
+              "lap_time": "0 days 00:01:24.729000",
+              "position": 1,
+              "sector1_time": "0 days 00:00:30.406000",
+              "sector2_time": "0 days 00:00:30.392000",
+              "sector3_time": "0 days 00:00:23.931000",
+              "speed_i1": 274.0,
+              "speed_i2": 237.0,
+              "speed_fl": 245.0,
+              "speed_st": 288.0,
+              "compound": "HARD",
+              "tyre_life": 17,
+              "is_personal_best": false
+            },
+            "lap_35": {
+              "lap_number": 35,
+              "lap_time": "0 days 00:01:24.557000",
+              "position": 1,
+              "sector1_time": "0 days 00:00:30.296000",
+              "sector2_time": "0 days 00:00:30.278000",
+              "sector3_time": "0 days 00:00:23.983000",
+              "speed_i1": null,
+              "speed_i2": 238.0,
+              "speed_fl": 245.0,
+              "speed_st": 289.0,
+              "compound": "HARD",
+              "tyre_life": 18,
+              "is_personal_best": false
+            }
+          },
+          "analysis": {
+            "speed_analysis": {
+              "max_speed": 245.0,
+              "min_speed": 243.0,
+              "violation_lap_speed": 245.0
+            },
+            "sector_analysis": {
+              "sector1_time": "0 days 00:00:30.406000",
+              "sector2_time": "0 days 00:00:30.392000",
+              "sector3_time": "0 days 00:00:23.931000"
+            },
+            "anomalies": []
+          }
+        }
+      },
+      "commentary": "AND HERE WE GO, FOLKS! We've got a situation unfolding right before our very eyes! Pia, the driver of car number 81, is in the midst of a thrilling battle out on the track, but it looks like she's got a problem on her hands!\n\nShe's just taken the approach to Turn 11, and OH MY GOODNESS! She's absolutely flying, reaching speeds of an incredible 243 kilometers per hour! But, wait... what's this? Her lap time for lap 33 has just been deleted - and it's a major talking point!\n\nThe message is flashing up on the pits' boards, and it's a clear indication of a track limits violation. CAR 81, TIME 1:25.863 DELETED - TRACK LIMITS AT TURN 11 LAP 33 15:49:00! The officials are taking a close look at this one, folks, and it's going to cause a bit of controversy!\n\nNow, let's take a look at the telemetry analysis. Pia was traveling at a blistering 243.0 kilometers per hour, with a lap time of 1:25.863 seconds on lap 33. But on lap 34, she's",
+      "type": "track_limits"
+    },
+    {
+      "collision": {
+        "lap": 63,
+        "time": "2024-07-21 14:31:09",
+        "message": "TURN 1 INCIDENT INVOLVING CARS 1 (VER) AND 44 (HAM) NOTED - CAUSING A COLLISION",
+        "category": "Other",
+        "drivers": [],
+        "steward_action": "Noted",
+        "telemetry_analysis": {}
+      },
+      "commentary": "(Excitedly) AND HERE WE GO, FOLKS! Lap 63 of this thrilling Formula 1 Grand Prix, and we've got a CRACKING COLLISION unfolding right before our eyes! \n\n(On-screen, the cameras show a close-up of the incident)\n\nVerstappen, in the number 1 Red Bull, is pushing hard, right on the tail of his rival, Lewis Hamilton in the number 44 Mercedes! Hamilton's trying to stay within DRS range, but Verstappen's closing in fast, and we can see the Dutchman's right rear bumper is mere millimetres from Hamilton's Mercedes!\n\nOH MY GOODNESS! The speed here is just MIND-BLOWING! We're talking over 310 kilometres per hour, and these drivers are literally inches apart! \n\n(Suddenly, the cars make contact)\n\nAND IT'S TOUCHDOWN! Oh, what a moment! Verstappen's bumper clips the side of Hamilton's Mercedes, sending both cars into a spin! The Mercedes is going left, Verstappen's Red Bull is heading right, and we're seeing a massive cloud of debris, folks!\n\n(Drama-filled pause)\n\nThis is going to be a STUNNING turn of events",
+      "type": "collision"
+    },
+    {
+      "race_summary": {
+        "race_overview": {
+          "total_laps": 70,
+          "total_drivers": 20,
+          "total_lap_records": 1355,
+          "winner": {
+            "driver": "PIA",
+            "name": "Oscar Piastri",
+            "team": "McLaren",
+            "time": "0 days 01:38:01.989000",
+            "points": 25.0
+          },
+          "podium": [
+            {
+              "position": 1,
+              "driver": "PIA",
+              "name": "Oscar Piastri",
+              "team": "McLaren",
+              "gap": "0 days 01:38:01.989000"
+            },
+            {
+              "position": 2,
+              "driver": "NOR",
+              "name": "Lando Norris",
+              "team": "McLaren",
+              "gap": "+0 days 00:00:02.141000"
+            },
+            {
+              "position": 3,
+              "driver": "HAM",
+              "name": "Lewis Hamilton",
+              "team": "Mercedes",
+              "gap": "+0 days 00:00:14.880000"
+            }
+          ]
+        },
+        "incidents": [
+          {
+            "lap": 2,
+            "time": "2024-07-21 13:05:08",
+            "message": "TURN 1 INCIDENT INVOLVING CAR 1 (VER) NOTED - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+            "category": "Other",
+            "drivers": [
+              "1"
+            ],
+            "steward_action": "Noted",
+            "telemetry_analysis": {
+              "VER": {
+                "driver_number": "1",
+                "lap_data": {
+                  "lap_1": {
+                    "lap_number": 1,
+                    "lap_time": "0 days 00:01:28.336000",
+                    "position": 2,
+                    "sector1_time": "nan",
+                    "sector2_time": "0 days 00:00:30.558000",
+                    "sector3_time": "0 days 00:00:23.329000",
+                    "speed_i1": 272.0,
+                    "speed_i2": 236.0,
+                    "speed_fl": 246.0,
+                    "speed_st": 248.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 1,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_2": {
+                    "lap_number": 2,
+                    "lap_time": "0 days 00:01:24.026000",
+                    "position": 2,
+                    "sector1_time": "0 days 00:00:29.907000",
+                    "sector2_time": "0 days 00:00:30.574000",
+                    "sector3_time": "0 days 00:00:23.545000",
+                    "speed_i1": null,
+                    "speed_i2": 235.0,
+                    "speed_fl": 244.0,
+                    "speed_st": 287.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 2,
+                    "is_personal_best": true,
+                    "track_status": 1
+                  },
+                  "lap_3": {
+                    "lap_number": 3,
+                    "lap_time": "0 days 00:01:24.075000",
+                    "position": 2,
+                    "sector1_time": "0 days 00:00:29.983000",
+                    "sector2_time": "0 days 00:00:30.562000",
+                    "sector3_time": "0 days 00:00:23.530000",
+                    "speed_i1": 276.0,
+                    "speed_i2": 235.0,
+                    "speed_fl": 243.0,
+                    "speed_st": 285.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 3,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_4": {
+                    "lap_number": 4,
+                    "lap_time": "0 days 00:01:26.075000",
+                    "position": 3,
+                    "sector1_time": "0 days 00:00:32.067000",
+                    "sector2_time": "0 days 00:00:30.541000",
+                    "sector3_time": "0 days 00:00:23.467000",
+                    "speed_i1": 280.0,
+                    "speed_i2": 238.0,
+                    "speed_fl": 249.0,
+                    "speed_st": 287.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 4,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  }
+                },
+                "analysis": {
+                  "speed_analysis": {
+                    "max_speed": 249.0,
+                    "min_speed": 243.0,
+                    "speed_variance": 6.0,
+                    "incident_lap_speed": 244.0
+                  },
+                  "sector_analysis": {
+                    "slowest_sectors": {
+                      "sector1": "nan",
+                      "sector2": "0 days 00:00:30.574000",
+                      "sector3": "0 days 00:00:23.545000"
+                    },
+                    "incident_lap_sectors": {
+                      "sector1": "0 days 00:00:29.907000",
+                      "sector2": "0 days 00:00:30.574000",
+                      "sector3": "0 days 00:00:23.545000"
+                    }
+                  },
+                  "tire_analysis": {
+                    "compounds_used": [
+                      "MEDIUM"
+                    ],
+                    "incident_lap_tire": {
+                      "compound": "MEDIUM",
+                      "tyre_life": 2
+                    },
+                    "tire_age_at_incident": 2
+                  },
+                  "position_analysis": {
+                    "position_range": "2 - 3",
+                    "position_change": 1,
+                    "incident_lap_position": 2
+                  },
+                  "anomalies": []
+                }
+              }
+            }
+          },
+          {
+            "lap": 3,
+            "time": "2024-07-21 13:06:11",
+            "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 1 (VER) UNDER INVESTIGATION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+            "category": "Other",
+            "drivers": [
+              "1"
+            ],
+            "steward_action": "Under investigation",
+            "telemetry_analysis": {
+              "VER": {
+                "driver_number": "1",
+                "lap_data": {
+                  "lap_1": {
+                    "lap_number": 1,
+                    "lap_time": "0 days 00:01:28.336000",
+                    "position": 2,
+                    "sector1_time": "nan",
+                    "sector2_time": "0 days 00:00:30.558000",
+                    "sector3_time": "0 days 00:00:23.329000",
+                    "speed_i1": 272.0,
+                    "speed_i2": 236.0,
+                    "speed_fl": 246.0,
+                    "speed_st": 248.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 1,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_2": {
+                    "lap_number": 2,
+                    "lap_time": "0 days 00:01:24.026000",
+                    "position": 2,
+                    "sector1_time": "0 days 00:00:29.907000",
+                    "sector2_time": "0 days 00:00:30.574000",
+                    "sector3_time": "0 days 00:00:23.545000",
+                    "speed_i1": null,
+                    "speed_i2": 235.0,
+                    "speed_fl": 244.0,
+                    "speed_st": 287.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 2,
+                    "is_personal_best": true,
+                    "track_status": 1
+                  },
+                  "lap_3": {
+                    "lap_number": 3,
+                    "lap_time": "0 days 00:01:24.075000",
+                    "position": 2,
+                    "sector1_time": "0 days 00:00:29.983000",
+                    "sector2_time": "0 days 00:00:30.562000",
+                    "sector3_time": "0 days 00:00:23.530000",
+                    "speed_i1": 276.0,
+                    "speed_i2": 235.0,
+                    "speed_fl": 243.0,
+                    "speed_st": 285.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 3,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_4": {
+                    "lap_number": 4,
+                    "lap_time": "0 days 00:01:26.075000",
+                    "position": 3,
+                    "sector1_time": "0 days 00:00:32.067000",
+                    "sector2_time": "0 days 00:00:30.541000",
+                    "sector3_time": "0 days 00:00:23.467000",
+                    "speed_i1": 280.0,
+                    "speed_i2": 238.0,
+                    "speed_fl": 249.0,
+                    "speed_st": 287.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 4,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_5": {
+                    "lap_number": 5,
+                    "lap_time": "0 days 00:01:23.979000",
+                    "position": 3,
+                    "sector1_time": "0 days 00:00:29.670000",
+                    "sector2_time": "0 days 00:00:30.615000",
+                    "sector3_time": "0 days 00:00:23.694000",
+                    "speed_i1": 281.0,
+                    "speed_i2": 235.0,
+                    "speed_fl": 249.0,
+                    "speed_st": 301.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 5,
+                    "is_personal_best": true,
+                    "track_status": 1
+                  }
+                },
+                "analysis": {
+                  "speed_analysis": {
+                    "max_speed": 249.0,
+                    "min_speed": 243.0,
+                    "speed_variance": 6.0,
+                    "incident_lap_speed": 243.0
+                  },
+                  "sector_analysis": {
+                    "slowest_sectors": {
+                      "sector1": "nan",
+                      "sector2": "0 days 00:00:30.615000",
+                      "sector3": "0 days 00:00:23.694000"
+                    },
+                    "incident_lap_sectors": {
+                      "sector1": "0 days 00:00:29.983000",
+                      "sector2": "0 days 00:00:30.562000",
+                      "sector3": "0 days 00:00:23.530000"
+                    }
+                  },
+                  "tire_analysis": {
+                    "compounds_used": [
+                      "MEDIUM"
+                    ],
+                    "incident_lap_tire": {
+                      "compound": "MEDIUM",
+                      "tyre_life": 3
+                    },
+                    "tire_age_at_incident": 3
+                  },
+                  "position_analysis": {
+                    "position_range": "2 - 3",
+                    "position_change": 1,
+                    "incident_lap_position": 2
+                  },
+                  "anomalies": []
+                }
+              }
+            }
+          },
+          {
+            "lap": 4,
+            "time": "2024-07-21 13:07:48",
+            "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CAR 1 (VER) NO FURTHER ACTION - LEAVING THE TRACK AND GAINING AN ADVANTAGE",
+            "category": "Other",
+            "drivers": [
+              "1"
+            ],
+            "steward_action": "No further action",
+            "telemetry_analysis": {
+              "VER": {
+                "driver_number": "1",
+                "lap_data": {
+                  "lap_2": {
+                    "lap_number": 2,
+                    "lap_time": "0 days 00:01:24.026000",
+                    "position": 2,
+                    "sector1_time": "0 days 00:00:29.907000",
+                    "sector2_time": "0 days 00:00:30.574000",
+                    "sector3_time": "0 days 00:00:23.545000",
+                    "speed_i1": null,
+                    "speed_i2": 235.0,
+                    "speed_fl": 244.0,
+                    "speed_st": 287.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 2,
+                    "is_personal_best": true,
+                    "track_status": 1
+                  },
+                  "lap_3": {
+                    "lap_number": 3,
+                    "lap_time": "0 days 00:01:24.075000",
+                    "position": 2,
+                    "sector1_time": "0 days 00:00:29.983000",
+                    "sector2_time": "0 days 00:00:30.562000",
+                    "sector3_time": "0 days 00:00:23.530000",
+                    "speed_i1": 276.0,
+                    "speed_i2": 235.0,
+                    "speed_fl": 243.0,
+                    "speed_st": 285.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 3,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_4": {
+                    "lap_number": 4,
+                    "lap_time": "0 days 00:01:26.075000",
+                    "position": 3,
+                    "sector1_time": "0 days 00:00:32.067000",
+                    "sector2_time": "0 days 00:00:30.541000",
+                    "sector3_time": "0 days 00:00:23.467000",
+                    "speed_i1": 280.0,
+                    "speed_i2": 238.0,
+                    "speed_fl": 249.0,
+                    "speed_st": 287.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 4,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  },
+                  "lap_5": {
+                    "lap_number": 5,
+                    "lap_time": "0 days 00:01:23.979000",
+                    "position": 3,
+                    "sector1_time": "0 days 00:00:29.670000",
+                    "sector2_time": "0 days 00:00:30.615000",
+                    "sector3_time": "0 days 00:00:23.694000",
+                    "speed_i1": 281.0,
+                    "speed_i2": 235.0,
+                    "speed_fl": 249.0,
+                    "speed_st": 301.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 5,
+                    "is_personal_best": true,
+                    "track_status": 1
+                  },
+                  "lap_6": {
+                    "lap_number": 6,
+                    "lap_time": "0 days 00:01:24.255000",
+                    "position": 3,
+                    "sector1_time": "0 days 00:00:29.875000",
+                    "sector2_time": "0 days 00:00:30.464000",
+                    "sector3_time": "0 days 00:00:23.916000",
+                    "speed_i1": 279.0,
+                    "speed_i2": 238.0,
+                    "speed_fl": 244.0,
+                    "speed_st": 302.0,
+                    "compound": "MEDIUM",
+                    "tyre_life": 6,
+                    "is_personal_best": false,
+                    "track_status": 1
+                  }
+                },
+                "analysis": {
+                  "speed_analysis": {
+                    "max_speed": 249.0,
+                    "min_speed": 243.0,
+                    "speed_variance": 6.0,
+                    "incident_lap_speed": 249.0
+                  },
+                  "sector_analysis": {
+                    "slowest_sectors": {
+                      "sector1": "0 days 00:00:32.067000",
+                      "sector2": "0 days 00:00:30.615000",
+                      "sector3": "0 days 00:00:23.916000"
+                    },
+                    "incident_lap_sectors": {
+                      "sector1": "0 days 00:00:32.067000",
+                      "sector2": "0 days 00:00:30.541000",
+                      "sector3": "0 days 00:00:23.467000"
+                    }
+                  },
+                  "tire_analysis": {
+                    "compounds_used": [
+                      "MEDIUM"
+                    ],
+                    "incident_lap_tire": {
+                      "compound": "MEDIUM",
+                      "tyre_life": 4
+                    },
+                    "tire_age_at_incident": 4
+                  },
+                  "position_analysis": {
+                    "position_range": "2 - 3",
+                    "position_change": 1,
+                    "incident_lap_position": 3
+                  },
+                  "anomalies": [
+                    "Position drop: 1 positions"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "lap": 63,
+            "time": "2024-07-21 14:31:09",
+            "message": "TURN 1 INCIDENT INVOLVING CARS 1 (VER) AND 44 (HAM) NOTED - CAUSING A COLLISION",
+            "category": "Other",
+            "drivers": [],
+            "steward_action": "Noted",
+            "telemetry_analysis": {}
+          },
+          {
+            "lap": 67,
+            "time": "2024-07-21 14:35:30",
+            "message": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 1 (VER) AND 44 (HAM) WILL BE INVESTIGATED AFTER THE RACE - CAUSING A COLLISION",
+            "category": "Other",
+            "drivers": [],
+            "steward_action": "Will be investigated after race",
+            "telemetry_analysis": {}
+          }
+        ],
+        "major_position_changes": [
+          {
+            "driver": "STR",
+            "lap": 15,
+            "from_position": 8,
+            "to_position": 16,
+            "change": -8,
+            "lap_time": "0 days 00:01:44.868000",
+            "prev_lap_time": "0 days 00:01:28.097000",
+            "compound": "MEDIUM",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "+16.771s",
+              "speed_changes": {
+                "SpeedI1": "-5.0 km/h",
+                "SpeedI2": "+0.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+19.260s",
+                "Sector2Time": "-0.016s",
+                "Sector3Time": "-2.473s"
+              },
+              "tire_changes": {
+                "compound_change": "SOFT \u2192 MEDIUM",
+                "tyre_life_change": "-15 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +16.771s",
+                "Significant Sector1Time change: +19.260s",
+                "Significant Sector3Time change: -2.473s"
+              ]
+            }
+          },
+          {
+            "driver": "RIC",
+            "lap": 8,
+            "from_position": 10,
+            "to_position": 18,
+            "change": -8,
+            "lap_time": "0 days 00:01:43.084000",
+            "prev_lap_time": "0 days 00:01:26.300000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+16.784s",
+              "speed_changes": {
+                "SpeedI1": "-13.0 km/h",
+                "SpeedI2": "-3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.120s",
+                "Sector2Time": "+0.872s",
+                "Sector3Time": "-2.208s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-6 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +16.784s",
+                "Significant Sector1Time change: +18.120s",
+                "Significant Sector2Time change: +0.872s",
+                "Significant Sector3Time change: -2.208s"
+              ]
+            }
+          },
+          {
+            "driver": "HUL",
+            "lap": 30,
+            "from_position": 11,
+            "to_position": 19,
+            "change": -8,
+            "lap_time": "0 days 00:01:42.766000",
+            "prev_lap_time": "0 days 00:01:27.890000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.876s",
+              "speed_changes": {
+                "SpeedI1": "-2.0 km/h",
+                "SpeedI2": "+2.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.351s",
+                "Sector2Time": "-0.409s",
+                "Sector3Time": "-3.066s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-26 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.876s",
+                "Significant Sector1Time change: +18.351s",
+                "Significant Sector3Time change: -3.066s"
+              ]
+            }
+          },
+          {
+            "driver": "BOT",
+            "lap": 17,
+            "from_position": 10,
+            "to_position": 18,
+            "change": -8,
+            "lap_time": "0 days 00:01:42.901000",
+            "prev_lap_time": "0 days 00:01:28.010000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.891s",
+              "speed_changes": {
+                "SpeedI1": "+0.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.140s",
+                "Sector2Time": "-0.276s",
+                "Sector3Time": "-2.973s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-16 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.891s",
+                "Significant Sector1Time change: +18.140s",
+                "Significant Sector3Time change: -2.973s"
+              ]
+            }
+          },
+          {
+            "driver": "ALO",
+            "lap": 8,
+            "from_position": 8,
+            "to_position": 15,
+            "change": -7,
+            "lap_time": "0 days 00:01:43.292000",
+            "prev_lap_time": "0 days 00:01:26.161000",
+            "compound": "MEDIUM",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "+17.131s",
+              "speed_changes": {
+                "SpeedI1": "-13.0 km/h",
+                "SpeedI2": "-3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+19.352s",
+                "Sector2Time": "+0.448s",
+                "Sector3Time": "-2.669s"
+              },
+              "tire_changes": {
+                "compound_change": "SOFT \u2192 MEDIUM",
+                "tyre_life_change": "-7 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +17.131s",
+                "Significant Sector1Time change: +19.352s",
+                "Significant Sector3Time change: -2.669s"
+              ]
+            }
+          },
+          {
+            "driver": "ALB",
+            "lap": 7,
+            "from_position": 11,
+            "to_position": 18,
+            "change": -7,
+            "lap_time": "0 days 00:01:42.198000",
+            "prev_lap_time": "0 days 00:01:28.058000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.140s",
+              "speed_changes": {
+                "SpeedI1": "+4.0 km/h",
+                "SpeedI2": "+5.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.870s",
+                "Sector2Time": "-1.508s",
+                "Sector3Time": "-3.222s"
+              },
+              "tire_changes": {
+                "compound_change": "SOFT \u2192 HARD",
+                "tyre_life_change": "-5 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.140s",
+                "Significant Sector1Time change: +18.870s",
+                "Significant Sector2Time change: -1.508s",
+                "Significant Sector3Time change: -3.222s"
+              ]
+            }
+          },
+          {
+            "driver": "SAR",
+            "lap": 9,
+            "from_position": 12,
+            "to_position": 19,
+            "change": -7,
+            "lap_time": "0 days 00:01:42.746000",
+            "prev_lap_time": "0 days 00:01:27.436000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+15.310s",
+              "speed_changes": {
+                "SpeedI1": "+7.0 km/h",
+                "SpeedI2": "-1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.101s",
+                "Sector2Time": "-0.650s",
+                "Sector3Time": "-2.141s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-7 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +15.310s",
+                "Significant Sector1Time change: +18.101s",
+                "Significant Sector2Time change: -0.650s",
+                "Significant Sector3Time change: -2.141s"
+              ]
+            }
+          },
+          {
+            "driver": "GAS",
+            "lap": 29,
+            "from_position": 12,
+            "to_position": 19,
+            "change": -7,
+            "lap_time": "0 days 00:01:41.671000",
+            "prev_lap_time": "0 days 00:01:28.972000",
+            "compound": "MEDIUM",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+12.699s",
+              "speed_changes": {
+                "SpeedI1": "-1.0 km/h",
+                "SpeedI2": "+3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.337s",
+                "Sector2Time": "-1.206s",
+                "Sector3Time": "-3.432s"
+              },
+              "tire_changes": {
+                "compound_change": "HARD \u2192 MEDIUM",
+                "tyre_life_change": "-27 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +12.699s",
+                "Significant Sector1Time change: +17.337s",
+                "Significant Sector2Time change: -1.206s",
+                "Significant Sector3Time change: -3.432s"
+              ]
+            }
+          },
+          {
+            "driver": "MAG",
+            "lap": 7,
+            "from_position": 13,
+            "to_position": 19,
+            "change": -6,
+            "lap_time": "0 days 00:01:42.430000",
+            "prev_lap_time": "0 days 00:01:28.066000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.364s",
+              "speed_changes": {
+                "SpeedI1": "+2.0 km/h",
+                "SpeedI2": "+6.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.452s",
+                "Sector2Time": "-0.871s",
+                "Sector3Time": "-3.217s"
+              },
+              "tire_changes": {
+                "compound_change": "SOFT \u2192 HARD",
+                "tyre_life_change": "-5 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.364s",
+                "Significant Sector1Time change: +18.452s",
+                "Significant Sector2Time change: -0.871s",
+                "Significant Sector3Time change: -3.217s"
+              ]
+            }
+          },
+          {
+            "driver": "SAI",
+            "lap": 22,
+            "from_position": 4,
+            "to_position": 9,
+            "change": -5,
+            "lap_time": "0 days 00:01:42.164000",
+            "prev_lap_time": "0 days 00:01:27.324000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.840s",
+              "speed_changes": {
+                "SpeedI2": "-2.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.098s",
+                "Sector2Time": "-0.612s",
+                "Sector3Time": "-2.646s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-20 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.840s",
+                "Significant Sector1Time change: +18.098s",
+                "Significant Sector2Time change: -0.612s",
+                "Significant Sector3Time change: -2.646s"
+              ]
+            }
+          },
+          {
+            "driver": "PER",
+            "lap": 29,
+            "from_position": 9,
+            "to_position": 14,
+            "change": -5,
+            "lap_time": "0 days 00:01:42.686000",
+            "prev_lap_time": "0 days 00:01:28.128000",
+            "compound": "MEDIUM",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.558s",
+              "speed_changes": {
+                "SpeedI1": "+2.0 km/h",
+                "SpeedI2": "+1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.694s",
+                "Sector2Time": "-0.406s",
+                "Sector3Time": "-2.730s"
+              },
+              "tire_changes": {
+                "compound_change": "HARD \u2192 MEDIUM",
+                "tyre_life_change": "-27 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.558s",
+                "Significant Sector1Time change: +17.694s",
+                "Significant Sector3Time change: -2.730s"
+              ]
+            }
+          },
+          {
+            "driver": "ALO",
+            "lap": 38,
+            "from_position": 8,
+            "to_position": 13,
+            "change": -5,
+            "lap_time": "0 days 00:01:40.829000",
+            "prev_lap_time": "0 days 00:01:27.324000",
+            "compound": "HARD",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "+13.505s",
+              "speed_changes": {
+                "SpeedI1": "+2.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.820s",
+                "Sector2Time": "-1.133s",
+                "Sector3Time": "-3.182s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-29 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +13.505s",
+                "Significant Sector1Time change: +17.820s",
+                "Significant Sector2Time change: -1.133s",
+                "Significant Sector3Time change: -3.182s"
+              ]
+            }
+          },
+          {
+            "driver": "ALB",
+            "lap": 30,
+            "from_position": 15,
+            "to_position": 20,
+            "change": -5,
+            "lap_time": "0 days 00:01:43.736000",
+            "prev_lap_time": "0 days 00:01:27.968000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+15.768s",
+              "speed_changes": {
+                "SpeedI1": "-1.0 km/h",
+                "SpeedI2": "-1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+19.628s",
+                "Sector2Time": "-0.668s",
+                "Sector3Time": "-3.192s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-22 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +15.768s",
+                "Significant Sector1Time change: +19.628s",
+                "Significant Sector2Time change: -0.668s",
+                "Significant Sector3Time change: -3.192s"
+              ]
+            }
+          },
+          {
+            "driver": "SAR",
+            "lap": 34,
+            "from_position": 14,
+            "to_position": 19,
+            "change": -5,
+            "lap_time": "0 days 00:01:41.910000",
+            "prev_lap_time": "0 days 00:01:28.010000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+13.900s",
+              "speed_changes": {
+                "SpeedI1": "+1.0 km/h",
+                "SpeedI2": "+3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.523s",
+                "Sector2Time": "-0.668s",
+                "Sector3Time": "-2.955s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-24 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +13.900s",
+                "Significant Sector1Time change: +17.523s",
+                "Significant Sector2Time change: -0.668s",
+                "Significant Sector3Time change: -2.955s"
+              ]
+            }
+          },
+          {
+            "driver": "OCO",
+            "lap": 31,
+            "from_position": 15,
+            "to_position": 20,
+            "change": -5,
+            "lap_time": "0 days 00:01:41.704000",
+            "prev_lap_time": "0 days 00:01:28.594000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+13.110s",
+              "speed_changes": {
+                "SpeedI1": "+0.0 km/h",
+                "SpeedI2": "+6.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.690s",
+                "Sector2Time": "-0.951s",
+                "Sector3Time": "-3.629s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-23 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +13.110s",
+                "Significant Sector1Time change: +17.690s",
+                "Significant Sector2Time change: -0.951s",
+                "Significant Sector3Time change: -3.629s"
+              ]
+            }
+          },
+          {
+            "driver": "LEC",
+            "lap": 24,
+            "from_position": 1,
+            "to_position": 5,
+            "change": -4,
+            "lap_time": "0 days 00:01:42.028000",
+            "prev_lap_time": "0 days 00:01:26.918000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+15.110s",
+              "speed_changes": {
+                "SpeedI1": "-2.0 km/h",
+                "SpeedI2": "+1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.116s",
+                "Sector2Time": "-0.104s",
+                "Sector3Time": "-2.902s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-22 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +15.110s",
+                "Significant Sector1Time change: +18.116s",
+                "Significant Sector3Time change: -2.902s"
+              ]
+            }
+          },
+          {
+            "driver": "VER",
+            "lap": 22,
+            "from_position": 1,
+            "to_position": 5,
+            "change": -4,
+            "lap_time": "0 days 00:01:41.788000",
+            "prev_lap_time": "0 days 00:01:27.027000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.761s",
+              "speed_changes": {
+                "SpeedI2": "-1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.414s",
+                "Sector2Time": "-0.565s",
+                "Sector3Time": "-3.088s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-20 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.761s",
+                "Significant Sector1Time change: +18.414s",
+                "Significant Sector2Time change: -0.565s",
+                "Significant Sector3Time change: -3.088s"
+              ]
+            }
+          },
+          {
+            "driver": "VER",
+            "lap": 50,
+            "from_position": 1,
+            "to_position": 5,
+            "change": -4,
+            "lap_time": "0 days 00:01:39.290000",
+            "prev_lap_time": "0 days 00:01:26.468000",
+            "compound": "MEDIUM",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+12.822s",
+              "speed_changes": {
+                "SpeedI2": "+3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.121s",
+                "Sector2Time": "-0.855s",
+                "Sector3Time": "-3.444s"
+              },
+              "tire_changes": {
+                "compound_change": "HARD \u2192 MEDIUM",
+                "tyre_life_change": "-27 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +12.822s",
+                "Significant Sector1Time change: +17.121s",
+                "Significant Sector2Time change: -0.855s",
+                "Significant Sector3Time change: -3.444s"
+              ]
+            }
+          },
+          {
+            "driver": "RUS",
+            "lap": 34,
+            "from_position": 7,
+            "to_position": 11,
+            "change": -4,
+            "lap_time": "0 days 00:01:40.210000",
+            "prev_lap_time": "0 days 00:01:28.191000",
+            "compound": "MEDIUM",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+12.019s",
+              "speed_changes": {
+                "SpeedI1": "+1.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+16.925s",
+                "Sector2Time": "-1.442s",
+                "Sector3Time": "-3.464s"
+              },
+              "tire_changes": {
+                "compound_change": "HARD \u2192 MEDIUM",
+                "tyre_life_change": "-32 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +12.019s",
+                "Significant Sector1Time change: +16.925s",
+                "Significant Sector2Time change: -1.442s",
+                "Significant Sector3Time change: -3.464s"
+              ]
+            }
+          },
+          {
+            "driver": "STR",
+            "lap": 46,
+            "from_position": 10,
+            "to_position": 14,
+            "change": -4,
+            "lap_time": "0 days 00:01:42.054000",
+            "prev_lap_time": "0 days 00:01:27.098000",
+            "compound": "HARD",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.956s",
+              "speed_changes": {
+                "SpeedI1": "+2.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.229s",
+                "Sector2Time": "-0.435s",
+                "Sector3Time": "-2.838s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-30 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.956s",
+                "Significant Sector1Time change: +18.229s",
+                "Significant Sector3Time change: -2.838s"
+              ]
+            }
+          },
+          {
+            "driver": "MAG",
+            "lap": 35,
+            "from_position": 13,
+            "to_position": 17,
+            "change": -4,
+            "lap_time": "0 days 00:01:43.404000",
+            "prev_lap_time": "0 days 00:01:28.105000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+15.299s",
+              "speed_changes": {
+                "SpeedI1": "-2.0 km/h",
+                "SpeedI2": "+1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.428s",
+                "Sector2Time": "-0.430s",
+                "Sector3Time": "-2.699s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-27 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +15.299s",
+                "Significant Sector1Time change: +18.428s",
+                "Significant Sector3Time change: -2.699s"
+              ]
+            }
+          },
+          {
+            "driver": "OCO",
+            "lap": 6,
+            "from_position": 14,
+            "to_position": 18,
+            "change": -4,
+            "lap_time": "0 days 00:01:28.553000",
+            "prev_lap_time": "0 days 00:01:26.158000",
+            "compound": "MEDIUM",
+            "tyre_life": 6,
+            "telemetry_comparison": {
+              "lap_time_change": "+2.395s",
+              "speed_changes": {
+                "SpeedI2": "+2.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "-0.059s",
+                "Sector2Time": "-0.232s",
+                "Sector3Time": "+2.686s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +2.395s",
+                "Significant Sector3Time change: +2.686s"
+              ]
+            }
+          },
+          {
+            "driver": "ZHO",
+            "lap": 8,
+            "from_position": 16,
+            "to_position": 20,
+            "change": -4,
+            "lap_time": "0 days 00:01:42.412000",
+            "prev_lap_time": "0 days 00:01:28.146000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.266s",
+              "speed_changes": {
+                "SpeedI1": "-1.0 km/h",
+                "SpeedI2": "+3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.715s",
+                "Sector2Time": "-0.964s",
+                "Sector3Time": "-3.485s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-7 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.266s",
+                "Significant Sector1Time change: +18.715s",
+                "Significant Sector2Time change: -0.964s",
+                "Significant Sector3Time change: -3.485s"
+              ]
+            }
+          },
+          {
+            "driver": "GAS",
+            "lap": 7,
+            "from_position": 19,
+            "to_position": 15,
+            "change": 4,
+            "lap_time": "0 days 00:01:25.505000",
+            "prev_lap_time": "0 days 00:01:26.140000",
+            "compound": "HARD",
+            "tyre_life": 7,
+            "telemetry_comparison": {
+              "lap_time_change": "-0.635s",
+              "speed_changes": {
+                "SpeedI1": "+4.0 km/h",
+                "SpeedI2": "+5.0 km/h",
+                "SpeedFL": "-3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "-0.117s",
+                "Sector2Time": "-0.279s",
+                "Sector3Time": "-0.239s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "PIA",
+            "lap": 19,
+            "from_position": 1,
+            "to_position": 4,
+            "change": -3,
+            "lap_time": "0 days 00:01:42.479000",
+            "prev_lap_time": "0 days 00:01:26.496000",
+            "compound": "HARD",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "+15.983s",
+              "speed_changes": {
+                "SpeedI1": "+0.0 km/h",
+                "SpeedI2": "-2.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.278s",
+                "Sector2Time": "+0.239s",
+                "Sector3Time": "-2.534s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-16 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +15.983s",
+                "Significant Sector1Time change: +18.278s",
+                "Significant Sector3Time change: -2.534s"
+              ]
+            }
+          },
+          {
+            "driver": "NOR",
+            "lap": 18,
+            "from_position": 2,
+            "to_position": 5,
+            "change": -3,
+            "lap_time": "0 days 00:01:41.807000",
+            "prev_lap_time": "0 days 00:01:26.485000",
+            "compound": "HARD",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "+15.322s",
+              "speed_changes": {
+                "SpeedI1": "-6.0 km/h",
+                "SpeedI2": "-3.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.273s",
+                "Sector2Time": "-0.155s",
+                "Sector3Time": "-2.796s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-15 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +15.322s",
+                "Significant Sector1Time change: +18.273s",
+                "Significant Sector3Time change: -2.796s"
+              ]
+            }
+          },
+          {
+            "driver": "PER",
+            "lap": 8,
+            "from_position": 14,
+            "to_position": 11,
+            "change": 3,
+            "lap_time": "0 days 00:01:25.051000",
+            "prev_lap_time": "0 days 00:01:25.240000",
+            "compound": "HARD",
+            "tyre_life": 8,
+            "telemetry_comparison": {
+              "lap_time_change": "-0.189s",
+              "speed_changes": {
+                "SpeedI1": "+3.0 km/h",
+                "SpeedI2": "+0.0 km/h",
+                "SpeedFL": "-1.0 km/h",
+                "SpeedST": "-5.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+0.084s",
+                "Sector2Time": "+0.024s",
+                "Sector3Time": "-0.297s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "RIC",
+            "lap": 29,
+            "from_position": 17,
+            "to_position": 20,
+            "change": -3,
+            "lap_time": "0 days 00:01:39.927000",
+            "prev_lap_time": "0 days 00:01:28.132000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+11.795s",
+              "speed_changes": {
+                "SpeedI1": "-6.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.114s",
+                "Sector2Time": "-1.598s",
+                "Sector3Time": "-3.721s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-20 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +11.795s",
+                "Significant Sector1Time change: +17.114s",
+                "Significant Sector2Time change: -1.598s",
+                "Significant Sector3Time change: -3.721s"
+              ]
+            }
+          },
+          {
+            "driver": "RIC",
+            "lap": 34,
+            "from_position": 17,
+            "to_position": 14,
+            "change": 3,
+            "lap_time": "0 days 00:01:23.826000",
+            "prev_lap_time": "0 days 00:01:25.787000",
+            "compound": "HARD",
+            "tyre_life": 6,
+            "telemetry_comparison": {
+              "lap_time_change": "-1.961s",
+              "speed_changes": {
+                "SpeedI2": "+1.0 km/h",
+                "SpeedFL": "-4.0 km/h",
+                "SpeedST": "+16.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "-0.303s",
+                "Sector2Time": "-0.971s",
+                "Sector3Time": "-0.687s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": [
+                "Significant SpeedST change: +16.0 km/h",
+                "Significant Sector2Time change: -0.971s",
+                "Significant Sector3Time change: -0.687s"
+              ]
+            }
+          },
+          {
+            "driver": "HUL",
+            "lap": 2,
+            "from_position": 14,
+            "to_position": 17,
+            "change": -3,
+            "lap_time": "0 days 00:01:28.821000",
+            "prev_lap_time": "0 days 00:01:35.921000",
+            "compound": "MEDIUM",
+            "tyre_life": 2,
+            "telemetry_comparison": {
+              "lap_time_change": "-7.100s",
+              "speed_changes": {
+                "SpeedI1": "+31.0 km/h",
+                "SpeedI2": "+4.0 km/h",
+                "SpeedST": "+25.0 km/h"
+              },
+              "sector_changes": {
+                "Sector2Time": "-2.402s",
+                "Sector3Time": "+2.002s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: -7.100s",
+                "Significant SpeedI1 change: +31.0 km/h",
+                "Significant SpeedST change: +25.0 km/h",
+                "Significant Sector2Time change: -2.402s",
+                "Significant Sector3Time change: +2.002s"
+              ]
+            }
+          },
+          {
+            "driver": "HUL",
+            "lap": 3,
+            "from_position": 17,
+            "to_position": 20,
+            "change": -3,
+            "lap_time": "0 days 00:01:41.266000",
+            "prev_lap_time": "0 days 00:01:28.821000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+12.445s",
+              "speed_changes": {
+                "SpeedI1": "+7.0 km/h",
+                "SpeedI2": "+1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.438s",
+                "Sector2Time": "-1.661s",
+                "Sector3Time": "-3.332s"
+              },
+              "tire_changes": {
+                "compound_change": "MEDIUM \u2192 HARD",
+                "tyre_life_change": "-1 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +12.445s",
+                "Significant Sector1Time change: +17.438s",
+                "Significant Sector2Time change: -1.661s",
+                "Significant Sector3Time change: -3.332s"
+              ]
+            }
+          },
+          {
+            "driver": "HUL",
+            "lap": 7,
+            "from_position": 20,
+            "to_position": 17,
+            "change": 3,
+            "lap_time": "0 days 00:01:25.002000",
+            "prev_lap_time": "0 days 00:01:24.687000",
+            "compound": "HARD",
+            "tyre_life": 5,
+            "telemetry_comparison": {
+              "lap_time_change": "+0.315s",
+              "speed_changes": {
+                "SpeedI1": "-2.0 km/h",
+                "SpeedI2": "+1.0 km/h",
+                "SpeedFL": "+1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+0.139s",
+                "Sector2Time": "+0.404s",
+                "Sector3Time": "-0.228s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "HUL",
+            "lap": 8,
+            "from_position": 17,
+            "to_position": 14,
+            "change": 3,
+            "lap_time": "0 days 00:01:24.829000",
+            "prev_lap_time": "0 days 00:01:25.002000",
+            "compound": "HARD",
+            "tyre_life": 6,
+            "telemetry_comparison": {
+              "lap_time_change": "-0.173s",
+              "speed_changes": {
+                "SpeedI1": "+2.0 km/h",
+                "SpeedI2": "-1.0 km/h",
+                "SpeedFL": "+1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+0.014s",
+                "Sector2Time": "-0.112s",
+                "Sector3Time": "-0.075s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "MAG",
+            "lap": 6,
+            "from_position": 10,
+            "to_position": 13,
+            "change": -3,
+            "lap_time": "0 days 00:01:28.066000",
+            "prev_lap_time": "0 days 00:01:26.149000",
+            "compound": "SOFT",
+            "tyre_life": 6,
+            "telemetry_comparison": {
+              "lap_time_change": "+1.917s",
+              "speed_changes": {
+                "SpeedI1": "-2.0 km/h",
+                "SpeedI2": "+3.0 km/h",
+                "SpeedST": "+2.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+0.122s",
+                "Sector2Time": "-0.243s",
+                "Sector3Time": "+2.038s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": [
+                "Significant Sector3Time change: +2.038s"
+              ]
+            }
+          },
+          {
+            "driver": "MAG",
+            "lap": 29,
+            "from_position": 15,
+            "to_position": 12,
+            "change": 3,
+            "lap_time": "0 days 00:01:25.615000",
+            "prev_lap_time": "0 days 00:01:26.022000",
+            "compound": "HARD",
+            "tyre_life": 23,
+            "telemetry_comparison": {
+              "lap_time_change": "-0.407s",
+              "speed_changes": {
+                "SpeedI1": "+4.0 km/h",
+                "SpeedI2": "+2.0 km/h",
+                "SpeedFL": "+1.0 km/h",
+                "SpeedST": "-1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "-0.084s",
+                "Sector2Time": "-0.143s",
+                "Sector3Time": "-0.180s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "BOT",
+            "lap": 29,
+            "from_position": 16,
+            "to_position": 13,
+            "change": 3,
+            "lap_time": "0 days 00:01:25.096000",
+            "prev_lap_time": "0 days 00:01:25.720000",
+            "compound": "HARD",
+            "tyre_life": 13,
+            "telemetry_comparison": {
+              "lap_time_change": "-0.624s",
+              "speed_changes": {
+                "SpeedI1": "+4.0 km/h",
+                "SpeedI2": "+2.0 km/h",
+                "SpeedFL": "-1.0 km/h",
+                "SpeedST": "-1.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "-0.354s",
+                "Sector2Time": "-0.266s",
+                "Sector3Time": "-0.004s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "BOT",
+            "lap": 46,
+            "from_position": 15,
+            "to_position": 18,
+            "change": -3,
+            "lap_time": "0 days 00:01:42.313000",
+            "prev_lap_time": "0 days 00:01:28.675000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+13.638s",
+              "speed_changes": {
+                "SpeedI1": "-5.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+17.994s",
+                "Sector2Time": "-1.258s",
+                "Sector3Time": "-3.098s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-28 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +13.638s",
+                "Significant Sector1Time change: +17.994s",
+                "Significant Sector2Time change: -1.258s",
+                "Significant Sector3Time change: -3.098s"
+              ]
+            }
+          },
+          {
+            "driver": "SAR",
+            "lap": 30,
+            "from_position": 17,
+            "to_position": 14,
+            "change": 3,
+            "lap_time": "0 days 00:01:25.921000",
+            "prev_lap_time": "0 days 00:01:25.926000",
+            "compound": "HARD",
+            "tyre_life": 22,
+            "telemetry_comparison": {
+              "lap_time_change": "-0.005s",
+              "speed_changes": {
+                "SpeedI1": "-1.0 km/h",
+                "SpeedI2": "+0.0 km/h",
+                "SpeedFL": "+0.0 km/h",
+                "SpeedST": "+2.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+0.019s",
+                "Sector2Time": "+0.159s",
+                "Sector3Time": "-0.183s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "+1 laps"
+              },
+              "anomalies": []
+            }
+          },
+          {
+            "driver": "ZHO",
+            "lap": 37,
+            "from_position": 16,
+            "to_position": 19,
+            "change": -3,
+            "lap_time": "0 days 00:01:43.928000",
+            "prev_lap_time": "0 days 00:01:29.150000",
+            "compound": "HARD",
+            "tyre_life": 1,
+            "telemetry_comparison": {
+              "lap_time_change": "+14.778s",
+              "speed_changes": {
+                "SpeedI1": "+3.0 km/h",
+                "SpeedI2": "+4.0 km/h"
+              },
+              "sector_changes": {
+                "Sector1Time": "+18.795s",
+                "Sector2Time": "-0.709s",
+                "Sector3Time": "-3.308s"
+              },
+              "tire_changes": {
+                "tyre_life_change": "-28 laps"
+              },
+              "anomalies": [
+                "Significant lap time change: +14.778s",
+                "Significant Sector1Time change: +18.795s",
+                "Significant Sector2Time change: -0.709s",
+                "Significant Sector3Time change: -3.308s"
+              ]
+            }
+          }
+        ],
+        "pit_stop_strategies": {
+          "PIA": [
+            {
+              "lap": 18,
+              "compound": "MEDIUM",
+              "tyre_life": 18.0,
+              "position_before": 1,
+              "position_after": 4,
+              "position_change": 3
+            },
+            {
+              "lap": 47,
+              "compound": "HARD",
+              "tyre_life": 30.0,
+              "position_before": 1,
+              "position_after": 3,
+              "position_change": 2
+            }
+          ],
+          "NOR": [
+            {
+              "lap": 17,
+              "compound": "MEDIUM",
+              "tyre_life": 17.0,
+              "position_before": 2,
+              "position_after": 5,
+              "position_change": 3
+            },
+            {
+              "lap": 45,
+              "compound": "HARD",
+              "tyre_life": 29.0,
+              "position_before": 2,
+              "position_after": 4,
+              "position_change": 2
+            }
+          ],
+          "HAM": [
+            {
+              "lap": 16,
+              "compound": "MEDIUM",
+              "tyre_life": 16.0,
+              "position_before": 4,
+              "position_after": 7,
+              "position_change": 3
+            },
+            {
+              "lap": 40,
+              "compound": "HARD",
+              "tyre_life": 24.0,
+              "position_before": 3,
+              "position_after": 5,
+              "position_change": 2
+            }
+          ],
+          "LEC": [
+            {
+              "lap": 23,
+              "compound": "MEDIUM",
+              "tyre_life": 23.0,
+              "position_before": 1,
+              "position_after": 5,
+              "position_change": 4
+            },
+            {
+              "lap": 40,
+              "compound": "HARD",
+              "tyre_life": 17.0,
+              "position_before": 5,
+              "position_after": 6,
+              "position_change": 1
+            }
+          ],
+          "VER": [
+            {
+              "lap": 21,
+              "compound": "MEDIUM",
+              "tyre_life": 21.0,
+              "position_before": 1,
+              "position_after": 5,
+              "position_change": 4
+            },
+            {
+              "lap": 49,
+              "compound": "HARD",
+              "tyre_life": 28.0,
+              "position_before": 1,
+              "position_after": 5,
+              "position_change": 4
+            }
+          ],
+          "SAI": [
+            {
+              "lap": 21,
+              "compound": "MEDIUM",
+              "tyre_life": 21.0,
+              "position_before": 3,
+              "position_after": 9,
+              "position_change": 6
+            },
+            {
+              "lap": 47,
+              "compound": "HARD",
+              "tyre_life": 26.0,
+              "position_before": 3,
+              "position_after": 6,
+              "position_change": 3
+            }
+          ],
+          "PER": [
+            {
+              "lap": 28,
+              "compound": "HARD",
+              "tyre_life": 28.0,
+              "position_before": 9,
+              "position_after": 14,
+              "position_change": 5
+            },
+            {
+              "lap": 47,
+              "compound": "MEDIUM",
+              "tyre_life": 19.0,
+              "position_before": 7,
+              "position_after": 8,
+              "position_change": 1
+            }
+          ],
+          "RUS": [
+            {
+              "lap": 33,
+              "compound": "HARD",
+              "tyre_life": 33.0,
+              "position_before": 7,
+              "position_after": 11,
+              "position_change": 4
+            },
+            {
+              "lap": 53,
+              "compound": "MEDIUM",
+              "tyre_life": 20.0,
+              "position_before": 7,
+              "position_after": 8,
+              "position_change": 1
+            }
+          ],
+          "TSU": [
+            {
+              "lap": 29,
+              "compound": "MEDIUM",
+              "tyre_life": 29.0,
+              "position_before": 7,
+              "position_after": 10,
+              "position_change": 3
+            }
+          ],
+          "STR": [
+            {
+              "lap": 14,
+              "compound": "SOFT",
+              "tyre_life": 17.0,
+              "position_before": 7,
+              "position_after": 16,
+              "position_change": 9
+            },
+            {
+              "lap": 45,
+              "compound": "MEDIUM",
+              "tyre_life": 32.0,
+              "position_before": 9,
+              "position_after": 14,
+              "position_change": 5
+            }
+          ],
+          "ALO": [
+            {
+              "lap": 7,
+              "compound": "SOFT",
+              "tyre_life": 9.0,
+              "position_before": 7,
+              "position_after": 15,
+              "position_change": 8
+            },
+            {
+              "lap": 37,
+              "compound": "MEDIUM",
+              "tyre_life": 31.0,
+              "position_before": 7,
+              "position_after": 13,
+              "position_change": 6
+            }
+          ],
+          "RIC": [
+            {
+              "lap": 7,
+              "compound": "MEDIUM",
+              "tyre_life": 7.0,
+              "position_before": 9,
+              "position_after": 18,
+              "position_change": 9
+            },
+            {
+              "lap": 28,
+              "compound": "HARD",
+              "tyre_life": 21.0,
+              "position_before": 16,
+              "position_after": 20,
+              "position_change": 4
+            }
+          ],
+          "HUL": [
+            {
+              "lap": 2,
+              "compound": "MEDIUM",
+              "tyre_life": 2.0,
+              "position_before": 14,
+              "position_after": 20,
+              "position_change": 6
+            },
+            {
+              "lap": 29,
+              "compound": "HARD",
+              "tyre_life": 27.0,
+              "position_before": 13,
+              "position_after": 19,
+              "position_change": 6
+            }
+          ],
+          "ALB": [
+            {
+              "lap": 6,
+              "compound": "SOFT",
+              "tyre_life": 6.0,
+              "position_before": 9,
+              "position_after": 18,
+              "position_change": 9
+            },
+            {
+              "lap": 29,
+              "compound": "HARD",
+              "tyre_life": 23.0,
+              "position_before": 14,
+              "position_after": 20,
+              "position_change": 6
+            }
+          ],
+          "MAG": [
+            {
+              "lap": 6,
+              "compound": "SOFT",
+              "tyre_life": 6.0,
+              "position_before": 10,
+              "position_after": 19,
+              "position_change": 9
+            },
+            {
+              "lap": 34,
+              "compound": "HARD",
+              "tyre_life": 28.0,
+              "position_before": 12,
+              "position_after": 17,
+              "position_change": 5
+            }
+          ],
+          "BOT": [
+            {
+              "lap": 16,
+              "compound": "MEDIUM",
+              "tyre_life": 17.0,
+              "position_before": 8,
+              "position_after": 18,
+              "position_change": 10
+            },
+            {
+              "lap": 45,
+              "compound": "HARD",
+              "tyre_life": 29.0,
+              "position_before": 13,
+              "position_after": 18,
+              "position_change": 5
+            }
+          ],
+          "SAR": [
+            {
+              "lap": 8,
+              "compound": "MEDIUM",
+              "tyre_life": 8.0,
+              "position_before": 13,
+              "position_after": 19,
+              "position_change": 6
+            },
+            {
+              "lap": 33,
+              "compound": "HARD",
+              "tyre_life": 25.0,
+              "position_before": 14,
+              "position_after": 19,
+              "position_change": 5
+            },
+            {
+              "lap": 63,
+              "compound": "HARD",
+              "tyre_life": 30.0,
+              "position_before": 18,
+              "position_after": 19,
+              "position_change": 1
+            }
+          ],
+          "OCO": [
+            {
+              "lap": 6,
+              "compound": "MEDIUM",
+              "tyre_life": 6.0,
+              "position_before": 14,
+              "position_after": 20,
+              "position_change": 6
+            },
+            {
+              "lap": 30,
+              "compound": "HARD",
+              "tyre_life": 24.0,
+              "position_before": 16,
+              "position_after": 20,
+              "position_change": 4
+            },
+            {
+              "lap": 64,
+              "compound": "HARD",
+              "tyre_life": 34.0,
+              "position_before": 16,
+              "position_after": 19,
+              "position_change": 3
+            }
+          ],
+          "ZHO": [
+            {
+              "lap": 7,
+              "compound": "MEDIUM",
+              "tyre_life": 8.0,
+              "position_before": 17,
+              "position_after": 20,
+              "position_change": 3
+            },
+            {
+              "lap": 36,
+              "compound": "HARD",
+              "tyre_life": 29.0,
+              "position_before": 16,
+              "position_after": 19,
+              "position_change": 3
+            }
+          ],
+          "GAS": [
+            {
+              "lap": 28,
+              "compound": "HARD",
+              "tyre_life": 28.0,
+              "position_before": 10,
+              "position_after": 19,
+              "position_change": 9
+            },
+            {
+              "lap": 33,
+              "compound": "MEDIUM",
+              "tyre_life": 5.0,
+              "position_before": 15,
+              "position_after": null,
+              "position_change": null
+            }
+          ]
+        },
+        "track_limits_violations": [
+          {
+            "lap": 12,
+            "time": "2024-07-21 13:19:02",
+            "driver_number": "10",
+            "driver_abbreviation": "GAS",
+            "deleted_time": "1:26.461",
+            "turn": "11",
+            "message": "CAR 10 (GAS) TIME 1:26.461 DELETED - TRACK LIMITS AT TURN 11 LAP 11 15:18:32",
+            "telemetry_analysis": {
+              "lap_data": {
+                "lap_11": {
+                  "lap_number": 11,
+                  "lap_time": "0 days 00:01:26.461000",
+                  "position": 12,
+                  "sector1_time": "0 days 00:00:30.392000",
+                  "sector2_time": "0 days 00:00:30.876000",
+                  "sector3_time": "0 days 00:00:25.193000",
+                  "speed_i1": null,
+                  "speed_i2": 185.0,
+                  "speed_fl": 245.0,
+                  "speed_st": null,
+                  "compound": "HARD",
+                  "tyre_life": 11,
+                  "is_personal_best": false
+                },
+                "lap_12": {
+                  "lap_number": 12,
+                  "lap_time": "0 days 00:01:25.543000",
+                  "position": 12,
+                  "sector1_time": "0 days 00:00:30.340000",
+                  "sector2_time": "0 days 00:00:30.894000",
+                  "sector3_time": "0 days 00:00:24.309000",
+                  "speed_i1": null,
+                  "speed_i2": 231.0,
+                  "speed_fl": 244.0,
+                  "speed_st": 288.0,
+                  "compound": "HARD",
+                  "tyre_life": 12,
+                  "is_personal_best": false
+                },
+                "lap_13": {
+                  "lap_number": 13,
+                  "lap_time": "0 days 00:01:25.579000",
+                  "position": 12,
+                  "sector1_time": "0 days 00:00:30.441000",
+                  "sector2_time": "0 days 00:00:31.022000",
+                  "sector3_time": "0 days 00:00:24.116000",
+                  "speed_i1": 277.0,
+                  "speed_i2": 231.0,
+                  "speed_fl": 245.0,
+                  "speed_st": null,
+                  "compound": "HARD",
+                  "tyre_life": 13,
+                  "is_personal_best": false
+                }
+              },
+              "analysis": {
+                "speed_analysis": {
+                  "max_speed": 245.0,
+                  "min_speed": 244.0,
+                  "violation_lap_speed": 244.0
+                },
+                "sector_analysis": {
+                  "sector1_time": "0 days 00:00:30.340000",
+                  "sector2_time": "0 days 00:00:30.894000",
+                  "sector3_time": "0 days 00:00:24.309000"
+                },
+                "anomalies": []
+              }
+            }
+          },
+          {
+            "lap": 34,
+            "time": "2024-07-21 13:49:47",
+            "driver_number": "81",
+            "driver_abbreviation": "PIA",
+            "deleted_time": "1:25.863",
+            "turn": "11",
+            "message": "CAR 81 (PIA) TIME 1:25.863 DELETED - TRACK LIMITS AT TURN 11 LAP 33 15:49:00",
+            "telemetry_analysis": {
+              "lap_data": {
+                "lap_33": {
+                  "lap_number": 33,
+                  "lap_time": "0 days 00:01:25.863000",
+                  "position": 1,
+                  "sector1_time": "0 days 00:00:30.044000",
+                  "sector2_time": "0 days 00:00:30.614000",
+                  "sector3_time": "0 days 00:00:25.205000",
+                  "speed_i1": 275.0,
+                  "speed_i2": 204.0,
+                  "speed_fl": 243.0,
+                  "speed_st": 289.0,
+                  "compound": "HARD",
+                  "tyre_life": 16,
+                  "is_personal_best": false
+                },
+                "lap_34": {
+                  "lap_number": 34,
+                  "lap_time": "0 days 00:01:24.729000",
+                  "position": 1,
+                  "sector1_time": "0 days 00:00:30.406000",
+                  "sector2_time": "0 days 00:00:30.392000",
+                  "sector3_time": "0 days 00:00:23.931000",
+                  "speed_i1": 274.0,
+                  "speed_i2": 237.0,
+                  "speed_fl": 245.0,
+                  "speed_st": 288.0,
+                  "compound": "HARD",
+                  "tyre_life": 17,
+                  "is_personal_best": false
+                },
+                "lap_35": {
+                  "lap_number": 35,
+                  "lap_time": "0 days 00:01:24.557000",
+                  "position": 1,
+                  "sector1_time": "0 days 00:00:30.296000",
+                  "sector2_time": "0 days 00:00:30.278000",
+                  "sector3_time": "0 days 00:00:23.983000",
+                  "speed_i1": null,
+                  "speed_i2": 238.0,
+                  "speed_fl": 245.0,
+                  "speed_st": 289.0,
+                  "compound": "HARD",
+                  "tyre_life": 18,
+                  "is_personal_best": false
+                }
+              },
+              "analysis": {
+                "speed_analysis": {
+                  "max_speed": 245.0,
+                  "min_speed": 243.0,
+                  "violation_lap_speed": 245.0
+                },
+                "sector_analysis": {
+                  "sector1_time": "0 days 00:00:30.406000",
+                  "sector2_time": "0 days 00:00:30.392000",
+                  "sector3_time": "0 days 00:00:23.931000"
+                },
+                "anomalies": []
+              }
+            }
+          },
+          {
+            "lap": 35,
+            "time": "2024-07-21 13:51:14",
+            "driver_number": "22",
+            "driver_abbreviation": "TSU",
+            "deleted_time": "1:25.200",
+            "turn": "1",
+            "message": "CAR 22 (TSU) TIME 1:25.200 DELETED - TRACK LIMITS AT TURN 1 LAP 33 15:49:12",
+            "telemetry_analysis": {
+              "lap_data": {
+                "lap_34": {
+                  "lap_number": 34,
+                  "lap_time": "0 days 00:01:24.094000",
+                  "position": 10,
+                  "sector1_time": "0 days 00:00:30.157000",
+                  "sector2_time": "0 days 00:00:30.209000",
+                  "sector3_time": "0 days 00:00:23.728000",
+                  "speed_i1": 278.0,
+                  "speed_i2": 233.0,
+                  "speed_fl": 245.0,
+                  "speed_st": 287.0,
+                  "compound": "HARD",
+                  "tyre_life": 5,
+                  "is_personal_best": false
+                },
+                "lap_35": {
+                  "lap_number": 35,
+                  "lap_time": "0 days 00:01:24.079000",
+                  "position": 10,
+                  "sector1_time": "0 days 00:00:30.189000",
+                  "sector2_time": "0 days 00:00:30.235000",
+                  "sector3_time": "0 days 00:00:23.655000",
+                  "speed_i1": null,
+                  "speed_i2": 235.0,
+                  "speed_fl": 245.0,
+                  "speed_st": 288.0,
+                  "compound": "HARD",
+                  "tyre_life": 6,
+                  "is_personal_best": false
+                },
+                "lap_36": {
+                  "lap_number": 36,
+                  "lap_time": "0 days 00:01:24.670000",
+                  "position": 10,
+                  "sector1_time": "0 days 00:00:30.306000",
+                  "sector2_time": "0 days 00:00:30.491000",
+                  "sector3_time": "0 days 00:00:23.873000",
+                  "speed_i1": 277.0,
+                  "speed_i2": 234.0,
+                  "speed_fl": 244.0,
+                  "speed_st": null,
+                  "compound": "HARD",
+                  "tyre_life": 7,
+                  "is_personal_best": false
+                }
+              },
+              "analysis": {
+                "speed_analysis": {
+                  "max_speed": 245.0,
+                  "min_speed": 244.0,
+                  "violation_lap_speed": 245.0
+                },
+                "sector_analysis": {
+                  "sector1_time": "0 days 00:00:30.189000",
+                  "sector2_time": "0 days 00:00:30.235000",
+                  "sector3_time": "0 days 00:00:23.655000"
+                },
+                "anomalies": []
+              }
+            }
+          },
+          {
+            "lap": 36,
+            "time": "2024-07-21 13:52:30",
+            "driver_number": "1",
+            "driver_abbreviation": "VER",
+            "deleted_time": "1:25.757",
+            "turn": "2",
+            "message": "CAR 1 (VER) TIME 1:25.757 DELETED - TRACK LIMITS AT TURN 2 LAP 35 15:51:20",
+            "telemetry_analysis": {
+              "lap_data": {
+                "lap_35": {
+                  "lap_number": 35,
+                  "lap_time": "0 days 00:01:25.757000",
+                  "position": 4,
+                  "sector1_time": "0 days 00:00:31.046000",
+                  "sector2_time": "0 days 00:00:30.854000",
+                  "sector3_time": "0 days 00:00:23.857000",
+                  "speed_i1": 277.0,
+                  "speed_i2": 239.0,
+                  "speed_fl": 246.0,
+                  "speed_st": null,
+                  "compound": "HARD",
+                  "tyre_life": 14,
+                  "is_personal_best": false
+                },
+                "lap_36": {
+                  "lap_number": 36,
+                  "lap_time": "0 days 00:01:24.080000",
+                  "position": 4,
+                  "sector1_time": "0 days 00:00:30.201000",
+                  "sector2_time": "0 days 00:00:30.167000",
+                  "sector3_time": "0 days 00:00:23.712000",
+                  "speed_i1": 281.0,
+                  "speed_i2": 243.0,
+                  "speed_fl": 250.0,
+                  "speed_st": 290.0,
+                  "compound": "HARD",
+                  "tyre_life": 15,
+                  "is_personal_best": false
+                },
+                "lap_37": {
+                  "lap_number": 37,
+                  "lap_time": "0 days 00:01:24.491000",
+                  "position": 4,
+                  "sector1_time": "0 days 00:00:30.045000",
+                  "sector2_time": "0 days 00:00:30.586000",
+                  "sector3_time": "0 days 00:00:23.860000",
+                  "speed_i1": 280.0,
+                  "speed_i2": 241.0,
+                  "speed_fl": 251.0,
+                  "speed_st": 305.0,
+                  "compound": "HARD",
+                  "tyre_life": 16,
+                  "is_personal_best": false
+                }
+              },
+              "analysis": {
+                "speed_analysis": {
+                  "max_speed": 251.0,
+                  "min_speed": 246.0,
+                  "violation_lap_speed": 250.0
+                },
+                "sector_analysis": {
+                  "sector1_time": "0 days 00:00:30.201000",
+                  "sector2_time": "0 days 00:00:30.167000",
+                  "sector3_time": "0 days 00:00:23.712000"
+                },
+                "anomalies": []
+              }
+            }
+          },
+          {
+            "lap": 67,
+            "time": "2024-07-21 14:35:53",
+            "driver_number": "1",
+            "driver_abbreviation": "VER",
+            "deleted_time": "1:23.001",
+            "turn": "7",
+            "message": "CAR 1 (VER) TIME 1:23.001 DELETED - TRACK LIMITS AT TURN 7 LAP 66 16:35:09",
+            "telemetry_analysis": {
+              "lap_data": {
+                "lap_66": {
+                  "lap_number": 66,
+                  "lap_time": "0 days 00:01:23.001000",
+                  "position": 5,
+                  "sector1_time": "0 days 00:00:29.777000",
+                  "sector2_time": "0 days 00:00:29.725000",
+                  "sector3_time": "0 days 00:00:23.499000",
+                  "speed_i1": null,
+                  "speed_i2": 243.0,
+                  "speed_fl": 253.0,
+                  "speed_st": 292.0,
+                  "compound": "MEDIUM",
+                  "tyre_life": 17,
+                  "is_personal_best": false
+                },
+                "lap_67": {
+                  "lap_number": 67,
+                  "lap_time": "0 days 00:01:22.830000",
+                  "position": 5,
+                  "sector1_time": "0 days 00:00:29.501000",
+                  "sector2_time": "0 days 00:00:29.620000",
+                  "sector3_time": "0 days 00:00:23.709000",
+                  "speed_i1": 281.0,
+                  "speed_i2": 245.0,
+                  "speed_fl": 247.0,
+                  "speed_st": 309.0,
+                  "compound": "MEDIUM",
+                  "tyre_life": 18,
+                  "is_personal_best": false
+                },
+                "lap_68": {
+                  "lap_number": 68,
+                  "lap_time": "0 days 00:01:23.201000",
+                  "position": 5,
+                  "sector1_time": "0 days 00:00:29.935000",
+                  "sector2_time": "0 days 00:00:29.525000",
+                  "sector3_time": "0 days 00:00:23.741000",
+                  "speed_i1": null,
+                  "speed_i2": 243.0,
+                  "speed_fl": 246.0,
+                  "speed_st": 293.0,
+                  "compound": "MEDIUM",
+                  "tyre_life": 19,
+                  "is_personal_best": false
+                }
+              },
+              "analysis": {
+                "speed_analysis": {
+                  "max_speed": 253.0,
+                  "min_speed": 246.0,
+                  "violation_lap_speed": 247.0
+                },
+                "sector_analysis": {
+                  "sector1_time": "0 days 00:00:29.501000",
+                  "sector2_time": "0 days 00:00:29.620000",
+                  "sector3_time": "0 days 00:00:23.709000"
+                },
+                "anomalies": []
+              }
+            }
+          }
+        ],
+        "yellow_flags": [
+          {
+            "lap": 63,
+            "time": "2024-07-21 14:30:24",
+            "message": "YELLOW IN TRACK SECTOR 3",
+            "sector": 3.0
+          }
+        ],
+        "weather_conditions": {
+          "air_temperature": {
+            "min": 27.4,
+            "max": 30.3,
+            "avg": 28.82387096774194,
+            "unit": "Celsius"
+          },
+          "track_temperature": {
+            "min": 40.4,
+            "max": 49.7,
+            "avg": 44.91612903225806,
+            "unit": "Celsius"
+          },
+          "humidity": {
+            "min": 42.0,
+            "max": 52.0,
+            "avg": 46.92258064516129,
+            "unit": "percent"
+          },
+          "pressure": {
+            "min": 981.4,
+            "max": 982.1,
+            "avg": 981.6767741935486,
+            "unit": "hPa"
+          },
+          "wind_speed": {
+            "min": 0.3,
+            "max": 2.4,
+            "avg": 1.2496774193548386,
+            "unit": "m/s"
+          },
+          "rainfall": "No rain detected"
+        },
+        "commentary_segments": [
+          {
+            "priority": 1,
+            "type": "collision",
+            "lap": 63,
+            "title": "Collision - Lap 63",
+            "description": "TURN 1 INCIDENT INVOLVING CARS 1 (VER) AND 44 (HAM) NOTED - CAUSING A COLLISION",
+            "drivers": [],
+            "steward_action": "Noted",
+            "data_points": [
+              "positions",
+              "lap_times",
+              "steward_investigation",
+              "yellow_flag"
+            ]
+          },
+          {
+            "priority": 1,
+            "type": "collision",
+            "lap": 67,
+            "title": "Collision - Lap 67",
+            "description": "FIA STEWARDS: TURN 1 INCIDENT INVOLVING CARS 1 (VER) AND 44 (HAM) WILL BE INVESTIGATED AFTER THE RACE - CAUSING A COLLISION",
+            "drivers": [],
+            "steward_action": "Will be investigated after race",
+            "data_points": [
+              "positions",
+              "lap_times",
+              "steward_investigation",
+              "yellow_flag"
+            ]
+          },
+          {
+            "priority": 2,
+            "type": "position_change",
+            "lap": 15,
+            "title": "STR - -8 positions (Lap 15)",
+            "description": "STR drops from 8 to 16",
+            "driver": "STR",
+            "change": -8,
+            "data_points": [
+              "position_change",
+              "lap_times",
+              "tire_compound"
+            ]
+          },
+          {
+            "priority": 2,
+            "type": "position_change",
+            "lap": 8,
+            "title": "RIC - -8 positions (Lap 8)",
+            "description": "RIC drops from 10 to 18",
+            "driver": "RIC",
+            "change": -8,
+            "data_points": [
+              "position_change",
+              "lap_times",
+              "tire_compound"
+            ]
+          },
+          {
+            "priority": 2,
+            "type": "position_change",
+            "lap": 30,
+            "title": "HUL - -8 positions (Lap 30)",
+            "description": "HUL drops from 11 to 19",
+            "driver": "HUL",
+            "change": -8,
+            "data_points": [
+              "position_change",
+              "lap_times",
+              "tire_compound"
+            ]
+          },
+          {
+            "priority": 2,
+            "type": "position_change",
+            "lap": 17,
+            "title": "BOT - -8 positions (Lap 17)",
+            "description": "BOT drops from 10 to 18",
+            "driver": "BOT",
+            "change": -8,
+            "data_points": [
+              "position_change",
+              "lap_times",
+              "tire_compound"
+            ]
+          },
+          {
+            "priority": 2,
+            "type": "position_change",
+            "lap": 8,
+            "title": "ALO - -7 positions (Lap 8)",
+            "description": "ALO drops from 8 to 15",
+            "driver": "ALO",
+            "change": -7,
+            "data_points": [
+              "position_change",
+              "lap_times",
+              "tire_compound"
+            ]
+          },
+          {
+            "priority": 3,
+            "type": "track_limits",
+            "lap": 12,
+            "title": "Track Limits - Lap 12",
+            "description": "CAR 10 (GAS) TIME 1:26.461 DELETED - TRACK LIMITS AT TURN 11 LAP 11 15:18:32",
+            "driver_number": "10",
+            "turn": "11",
+            "data_points": [
+              "steward_decision",
+              "track_limits",
+              "racing_standards"
+            ]
+          },
+          {
+            "priority": 3,
+            "type": "track_limits",
+            "lap": 34,
+            "title": "Track Limits - Lap 34",
+            "description": "CAR 81 (PIA) TIME 1:25.863 DELETED - TRACK LIMITS AT TURN 11 LAP 33 15:49:00",
+            "driver_number": "81",
+            "turn": "11",
+            "data_points": [
+              "steward_decision",
+              "track_limits",
+              "racing_standards"
+            ]
+          },
+          {
+            "priority": 3,
+            "type": "track_limits",
+            "lap": 35,
+            "title": "Track Limits - Lap 35",
+            "description": "CAR 22 (TSU) TIME 1:25.200 DELETED - TRACK LIMITS AT TURN 1 LAP 33 15:49:12",
+            "driver_number": "22",
+            "turn": "1",
+            "data_points": [
+              "steward_decision",
+              "track_limits",
+              "racing_standards"
+            ]
+          },
+          {
+            "priority": 3,
+            "type": "track_limits",
+            "lap": 36,
+            "title": "Track Limits - Lap 36",
+            "description": "CAR 1 (VER) TIME 1:25.757 DELETED - TRACK LIMITS AT TURN 2 LAP 35 15:51:20",
+            "driver_number": "1",
+            "turn": "2",
+            "data_points": [
+              "steward_decision",
+              "track_limits",
+              "racing_standards"
+            ]
+          },
+          {
+            "priority": 3,
+            "type": "track_limits",
+            "lap": 67,
+            "title": "Track Limits - Lap 67",
+            "description": "CAR 1 (VER) TIME 1:23.001 DELETED - TRACK LIMITS AT TURN 7 LAP 66 16:35:09",
+            "driver_number": "1",
+            "turn": "7",
+            "data_points": [
+              "steward_decision",
+              "track_limits",
+              "racing_standards"
+            ]
+          },
+          {
+            "priority": 4,
+            "type": "yellow_flag",
+            "lap": 63,
+            "title": "Yellow Flag - Lap 63",
+            "description": "YELLOW IN TRACK SECTOR 3",
+            "sector": 3.0,
+            "data_points": [
+              "track_status",
+              "safety_periods",
+              "race_impact"
+            ]
+          }
+        ],
+        "statistics": {
+          "total_position_changes": 275,
+          "significant_changes_3plus": 39,
+          "major_changes_5plus": 15,
+          "total_incidents": 5,
+          "track_limits_violations": 5,
+          "yellow_flag_periods": 1,
+          "total_pit_stops": 41
+        }
+      },
+      "commentary": "(Organ music fading out, followed by the iconic Sky Sports F1 theme)\n\nDavid Crofty: AND WE'RE LIVE, FOLKS! The chequered flag has fallen, and what a RACE IT HAS BEEN! (pausing for dramatic effect) Seventy laps of pure unadulterated F1 drama, with twists and turns that will keep you guessing until the very end!\n\n(Excited crowd noise in the background)\n\nDavid Crofty: Our winner, the young McLaren sensation Oscar Piastri, has done the impossible. With a stunning drive, he's outsmarted the likes of Charles Leclerc, Max Verstappen, and Carlos Sainz to take the top step on the podium. AND WHAT A MOMENT! Piastri's first F1 win, and what a way to celebrate!\n\n(Crowd erupts in cheers and applause)\n\nDavid Crofty: Let's take a look at the times, folks. Piastri's victory lap was a 1:31.421, with an average speed of 219.6 km/h (136.5 mph) in the final lap. But it's not just about the fastest time; it's about the consistency, the strategy",
+      "type": "race_summary"
+    }
+  ]
+}

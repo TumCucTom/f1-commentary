@@ -1,0 +1,235 @@
+# F1 Hungary 2024 Race Analysis - Commands Used
+
+## Initial Data Collection
+```bash
+# Get 2024 Hungary Grand Prix race data with summary
+python f1_race_data.py --year 2024 --event "Hungary Grand Prix" --session R --summary
+```
+
+## Data Analysis Commands
+
+### 1. Lap Data and Position Changes Analysis
+```python
+python -c "
+import pandas as pd
+import numpy as np
+
+# Load the data
+lap_data = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/lap_data.csv')
+race_control = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/race_control_messages.csv')
+track_status = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/track_status.csv')
+
+print('=== LAP DATA ANALYSIS ===')
+print(f'Total laps: {len(lap_data)}')
+print(f'Drivers: {lap_data[\"Driver\"].nunique()}')
+print(f'Lap range: {lap_data[\"LapNumber\"].min()} to {lap_data[\"LapNumber\"].max()}')
+
+# Look for position changes
+print('\n=== POSITION CHANGES ===')
+position_changes = []
+for driver in lap_data['Driver'].unique():
+    driver_laps = lap_data[lap_data['Driver'] == driver].sort_values('LapNumber')
+    if len(driver_laps) > 1:
+        for i in range(1, len(driver_laps)):
+            prev_pos = driver_laps.iloc[i-1]['Position']
+            curr_pos = driver_laps.iloc[i]['Position']
+            if not pd.isna(prev_pos) and not pd.isna(curr_pos) and prev_pos != curr_pos:
+                position_changes.append({
+                    'Driver': driver,
+                    'Lap': driver_laps.iloc[i]['LapNumber'],
+                    'From': prev_pos,
+                    'To': curr_pos,
+                    'Change': prev_pos - curr_pos
+                })
+
+position_changes_df = pd.DataFrame(position_changes)
+if not position_changes_df.empty:
+    print(f'Total position changes: {len(position_changes_df)}')
+    print('Significant position changes (3+ positions):')
+    significant = position_changes_df[abs(position_changes_df['Change']) >= 3]
+    print(significant.sort_values('Lap'))
+else:
+    print('No position changes found')
+"
+```
+
+### 2. Pit Stop and Incident Analysis
+```python
+python -c "
+import pandas as pd
+import numpy as np
+
+# Load the data
+lap_data = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/lap_data.csv')
+race_control = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/race_control_messages.csv')
+
+print('=== PIT STOP ANALYSIS ===')
+# Look for pit stops
+pit_stops = lap_data[lap_data['PitInTime'].notna() | lap_data['PitOutTime'].notna()]
+print(f'Total pit stops: {len(pit_stops)}')
+
+# Analyze pit stop timing
+pit_stops_analysis = []
+for driver in lap_data['Driver'].unique():
+    driver_laps = lap_data[lap_data['Driver'] == driver].sort_values('LapNumber')
+    pit_laps = driver_laps[driver_laps['PitInTime'].notna()]
+    
+    for _, pit_lap in pit_laps.iterrows():
+        lap_num = pit_lap['LapNumber']
+        position_before = driver_laps[driver_laps['LapNumber'] == lap_num - 1]['Position'].iloc[0] if lap_num > 1 else None
+        position_after = driver_laps[driver_laps['LapNumber'] == lap_num + 1]['Position'].iloc[0] if lap_num < driver_laps['LapNumber'].max() else None
+        
+        pit_stops_analysis.append({
+            'Driver': driver,
+            'Lap': lap_num,
+            'Position_Before': position_before,
+            'Position_After': position_after,
+            'Position_Change': position_after - position_before if position_before and position_after else None,
+            'Compound': pit_lap['Compound'],
+            'TyreLife': pit_lap['TyreLife']
+        })
+
+pit_df = pd.DataFrame(pit_stops_analysis)
+print('Pit stop summary:')
+print(pit_df.groupby('Driver').size().sort_values(ascending=False))
+
+print('\n=== RACE CONTROL INCIDENTS ===')
+# Look for incidents
+incidents = race_control[race_control['Message'].str.contains('INCIDENT|CRASH|COLLISION|OFF TRACK|SPIN', case=False, na=False)]
+print(f'Total incidents: {len(incidents)}')
+for _, incident in incidents.iterrows():
+    print(f'Lap {incident[\"Lap\"]}: {incident[\"Message\"]}')
+
+print('\n=== YELLOW FLAGS ===')
+yellow_flags = race_control[race_control['Message'].str.contains('YELLOW|FLAG', case=False, na=False)]
+print(f'Yellow flag events: {len(yellow_flags)}')
+for _, flag in yellow_flags.iterrows():
+    print(f'Lap {flag[\"Lap\"]}: {flag[\"Message\"]}')
+"
+```
+
+### 3. Key Moments Analysis
+```python
+python -c "
+import pandas as pd
+import numpy as np
+
+# Load the data
+lap_data = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/lap_data.csv')
+race_control = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/race_control_messages.csv')
+
+print('=== KEY MOMENTS ANALYSIS ===')
+
+print('\n1. VERSTAPPEN INCIDENTS:')
+ver_incidents = race_control[race_control['Message'].str.contains('VER', case=False, na=False)]
+for _, incident in ver_incidents.iterrows():
+    print(f'   Lap {incident[\"Lap\"]}: {incident[\"Message\"]}')
+
+print('\n2. YELLOW FLAG PERIOD:')
+yellow_period = race_control[race_control['Message'].str.contains('YELLOW', case=False, na=False)]
+for _, flag in yellow_period.iterrows():
+    print(f'   Lap {flag[\"Lap\"]}: {flag[\"Message\"]}')
+
+print('\n3. MAJOR POSITION CHANGES:')
+# Look at the biggest position changes
+major_changes = [
+    ('ALB', 7, 11, 18, -7),  # Albon drops 7 positions
+    ('ALO', 8, 8, 15, -7),   # Alonso drops 7 positions  
+    ('RIC', 8, 10, 18, -8),  # Ricciardo drops 8 positions
+    ('STR', 15, 8, 16, -8),  # Stroll drops 8 positions
+    ('BOT', 17, 10, 18, -8), # Bottas drops 8 positions
+    ('HUL', 30, 11, 19, -8), # Hulkenberg drops 8 positions
+]
+
+for driver, lap, from_pos, to_pos, change in major_changes:
+    print(f'   {driver} on Lap {lap}: {from_pos} → {to_pos} ({change:+d} positions)')
+
+print('\n4. PIT STOP STRATEGY ANALYSIS:')
+# Look at early pit stops that might be undercuts
+early_pits = lap_data[(lap_data['PitInTime'].notna()) & (lap_data['LapNumber'] <= 25)]
+print('Early pit stops (Lap 1-25):')
+for _, pit in early_pits.iterrows():
+    print(f'   {pit[\"Driver\"]} on Lap {pit[\"LapNumber\"]} - {pit[\"Compound\"]} tires')
+"
+```
+
+### 4. Detailed Collision and Strategy Analysis
+```python
+python -c "
+import pandas as pd
+import numpy as np
+
+# Load the data
+lap_data = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/lap_data.csv')
+race_control = pd.read_csv('f1_data_output/Hungarian Grand Prix_20251003_103325_csv/race_control_messages.csv')
+
+print('=== DETAILED ANALYSIS OF KEY MOMENTS ===')
+
+print('\n1. VERSTAPPEN vs HAMILTON COLLISION (Lap 63):')
+# Get positions around lap 63
+lap_63_data = lap_data[lap_data['LapNumber'] == 63]
+ver_lap_63 = lap_63_data[lap_63_data['Driver'] == 'VER']
+ham_lap_63 = lap_63_data[lap_63_data['Driver'] == 'HAM']
+
+if not ver_lap_63.empty and not ham_lap_63.empty:
+    print(f'   VER position: {ver_lap_63[\"Position\"].iloc[0]}')
+    print(f'   HAM position: {ham_lap_63[\"Position\"].iloc[0]}')
+    print(f'   VER lap time: {ver_lap_63[\"LapTime\"].iloc[0]}')
+    print(f'   HAM lap time: {ham_lap_63[\"LapTime\"].iloc[0]}')
+
+# Check positions before and after
+lap_62_data = lap_data[lap_data['LapNumber'] == 62]
+lap_64_data = lap_data[lap_data['LapNumber'] == 64]
+
+ver_62 = lap_62_data[lap_62_data['Driver'] == 'VER']['Position'].iloc[0] if not lap_62_data[lap_62_data['Driver'] == 'VER'].empty else 'N/A'
+ver_64 = lap_64_data[lap_64_data['Driver'] == 'VER']['Position'].iloc[0] if not lap_64_data[lap_64_data['Driver'] == 'VER'].empty else 'N/A'
+ham_62 = lap_62_data[lap_62_data['Driver'] == 'HAM']['Position'].iloc[0] if not lap_62_data[lap_62_data['Driver'] == 'HAM'].empty else 'N/A'
+ham_64 = lap_64_data[lap_64_data['Driver'] == 'HAM']['Position'].iloc[0] if not lap_64_data[lap_64_data['Driver'] == 'HAM'].empty else 'N/A'
+
+print(f'   VER: Lap 62 position {ver_62} → Lap 64 position {ver_64}')
+print(f'   HAM: Lap 62 position {ham_62} → Lap 64 position {ham_64}')
+
+print('\n2. EARLY RACE CHAOS (Laps 6-8):')
+# Look at the major position changes in early laps
+chaos_laps = [6, 7, 8]
+for lap in chaos_laps:
+    lap_data_subset = lap_data[lap_data['LapNumber'] == lap]
+    print(f'   Lap {lap}:')
+    for _, row in lap_data_subset.iterrows():
+        if row['Driver'] in ['ALB', 'ALO', 'RIC', 'MAG', 'GAS', 'HUL']:
+            print(f'     {row[\"Driver\"]}: Position {row[\"Position\"]}, Lap time {row[\"LapTime\"]}')
+
+print('\n3. PIT STOP STRATEGY COMPARISON:')
+# Compare McLaren vs Red Bull strategy
+mclaren_pits = lap_data[(lap_data['Driver'].isin(['PIA', 'NOR'])) & (lap_data['PitInTime'].notna())]
+redbull_pits = lap_data[(lap_data['Driver'].isin(['VER', 'PER'])) & (lap_data['PitInTime'].notna())]
+
+print('   McLaren pit stops:')
+for _, pit in mclaren_pits.iterrows():
+    print(f'     {pit[\"Driver\"]} on Lap {pit[\"LapNumber\"]} - {pit[\"Compound\"]}')
+
+print('   Red Bull pit stops:')
+for _, pit in redbull_pits.iterrows():
+    print(f'     {pit[\"Driver\"]} on Lap {pit[\"LapNumber\"]} - {pit[\"Compound\"]}')
+"
+```
+
+## File Structure Created
+```
+f1_data_output/
+├── Hungarian Grand Prix_20251003_103325.json
+├── Hungarian Grand Prix_20251003_103325.xlsx
+└── Hungarian Grand Prix_20251003_103325_csv/
+    ├── lap_data.csv
+    ├── race_control_messages.csv
+    ├── session_results.csv
+    ├── session_status.csv
+    ├── track_status.csv
+    └── weather_data.csv
+```
+
+## Data Files Generated
+- **JSON**: Complete structured data (1 file)
+- **Excel**: Multi-sheet workbook (1 file)  
+- **CSV**: Individual data type files (6 files)
+- **Cache**: FastF1 cached data for future use

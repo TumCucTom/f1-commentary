@@ -1,0 +1,11 @@
+.env
+__pycache__/
+f1_cache/
+f1_data_output/
+analysis_results/
+commentary_output.json
+commentary_output.jsonl
+commentary_output.jsonl.gz
+commentary_output.jsonl.gz.part
+commentary_output.jsonl.gz.part.1
+commentary_output.jsonl.gz.part.2
