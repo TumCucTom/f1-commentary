@@ -1,0 +1,3 @@
+[submodule "f1-ghost-car"]
+	path = f1-ghost-car
+	url = git@github.com:TumCucTom/f1-ghost-car.git

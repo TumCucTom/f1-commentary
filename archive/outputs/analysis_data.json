@@ -1,0 +1,288 @@
+{
+  "race_overview": {
+    "event_name": "Hungarian Grand Prix 2024",
+    "date": "2024-07-21",
+    "location": "Budapest, Hungary",
+    "total_laps": 70,
+    "total_drivers": 20,
+    "total_lap_records": 1355
+  },
+  "race_results": {
+    "winner": {
+      "driver": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren",
+      "time": "1:38:01.989",
+      "points": 25
+    },
+    "podium": [
+      {
+        "position": 1,
+        "driver": "PIA",
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "gap": "0.000"
+      },
+      {
+        "position": 2,
+        "driver": "NOR",
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "gap": "+2.141"
+      },
+      {
+        "position": 3,
+        "driver": "HAM",
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "gap": "+14.880"
+      }
+    ]
+  },
+  "key_incidents": [
+    {
+      "lap": 2,
+      "driver": "VER",
+      "incident": "Turn 1 track limits - leaving track and gaining advantage",
+      "steward_action": "Noted"
+    },
+    {
+      "lap": 3,
+      "driver": "VER",
+      "incident": "Turn 1 incident under investigation",
+      "steward_action": "Under investigation"
+    },
+    {
+      "lap": 4,
+      "driver": "VER",
+      "incident": "Turn 1 incident",
+      "steward_action": "No further action"
+    },
+    {
+      "lap": 35,
+      "driver": "VER",
+      "incident": "Track limits at Turn 2",
+      "steward_action": "Lap time deleted (1:25.757)"
+    },
+    {
+      "lap": 63,
+      "drivers": [
+        "VER",
+        "HAM"
+      ],
+      "incident": "Turn 1 collision between Verstappen and Hamilton",
+      "steward_action": "Will be investigated after the race",
+      "yellow_flag": true,
+      "sector": 3
+    },
+    {
+      "lap": 66,
+      "driver": "VER",
+      "incident": "Track limits at Turn 7",
+      "steward_action": "Lap time deleted (1:23.001)"
+    }
+  ],
+  "major_position_changes": [
+    {
+      "driver": "ALB",
+      "lap": 7,
+      "from": 11,
+      "to": 18,
+      "change": -7,
+      "reason": "Early race issues"
+    },
+    {
+      "driver": "ALO",
+      "lap": 8,
+      "from": 8,
+      "to": 15,
+      "change": -7,
+      "reason": "Strategy/tire issues"
+    },
+    {
+      "driver": "RIC",
+      "lap": 8,
+      "from": 10,
+      "to": 18,
+      "change": -8,
+      "reason": "Major drop"
+    },
+    {
+      "driver": "STR",
+      "lap": 15,
+      "from": 8,
+      "to": 16,
+      "change": -8,
+      "reason": "Strategy error"
+    },
+    {
+      "driver": "BOT",
+      "lap": 17,
+      "from": 10,
+      "to": 18,
+      "change": -8,
+      "reason": "Mechanical/strategy"
+    },
+    {
+      "driver": "HUL",
+      "lap": 30,
+      "from": 11,
+      "to": 19,
+      "change": -8,
+      "reason": "Late race issues"
+    }
+  ],
+  "pit_stop_strategies": {
+    "mclaren": {
+      "piastri": [
+        {
+          "lap": 18,
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 47,
+          "compound": "HARD"
+        }
+      ],
+      "norris": [
+        {
+          "lap": 17,
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 45,
+          "compound": "HARD"
+        }
+      ]
+    },
+    "red_bull": {
+      "verstappen": [
+        {
+          "lap": 21,
+          "compound": "MEDIUM"
+        },
+        {
+          "lap": 49,
+          "compound": "HARD"
+        }
+      ],
+      "perez": [
+        {
+          "lap": 28,
+          "compound": "HARD"
+        },
+        {
+          "lap": 47,
+          "compound": "MEDIUM"
+        }
+      ]
+    },
+    "strategy_analysis": {
+      "mclaren_early_pit": "Laps 17-18 (undercut attempt)",
+      "red_bull_later_pit": "Laps 21-28 (different strategy)",
+      "tire_compounds": "Mixed strategies with different compounds"
+    }
+  },
+  "yellow_flags": [
+    {
+      "lap": 63,
+      "sector": 3,
+      "reason": "VER vs HAM collision",
+      "duration": "Brief period"
+    }
+  ],
+  "weather_conditions": {
+    "air_temperature": {
+      "min": 27.4,
+      "max": 27.6,
+      "unit": "Celsius"
+    },
+    "track_temperature": {
+      "min": 43.7,
+      "max": 46.1,
+      "unit": "Celsius"
+    },
+    "humidity": {
+      "min": 51,
+      "max": 52,
+      "unit": "percent"
+    },
+    "pressure": {
+      "min": 982.0,
+      "max": 982.1,
+      "unit": "hPa"
+    },
+    "wind_speed": {
+      "min": 1.0,
+      "max": 1.9,
+      "unit": "m/s"
+    },
+    "rainfall": "None detected during race"
+  },
+  "statistics": {
+    "total_position_changes": 275,
+    "significant_changes_3plus": 37,
+    "total_pit_stops": 82,
+    "total_incidents": 5,
+    "yellow_flag_events": 54,
+    "blue_flag_events": 53
+  },
+  "commentary_segments": [
+    {
+      "priority": 1,
+      "lap": 63,
+      "title": "VER vs HAM Collision",
+      "description": "Major collision between world champions at Turn 1",
+      "data_points": [
+        "positions",
+        "lap_times",
+        "steward_investigation",
+        "yellow_flag"
+      ]
+    },
+    {
+      "priority": 2,
+      "laps": "6-8",
+      "title": "Early Race Chaos",
+      "description": "Multiple drivers losing 7-8 positions",
+      "data_points": [
+        "position_changes",
+        "lap_times",
+        "tire_issues"
+      ]
+    },
+    {
+      "priority": 3,
+      "lap": 2,
+      "title": "VER Track Limits Incident",
+      "description": "Controversial steward decision on track limits",
+      "data_points": [
+        "steward_decision",
+        "track_limits",
+        "racing_standards"
+      ]
+    },
+    {
+      "priority": 4,
+      "laps": "17-21",
+      "title": "Pit Stop Strategy Battle",
+      "description": "McLaren vs Red Bull strategy differences",
+      "data_points": [
+        "pit_timing",
+        "tire_compounds",
+        "undercut_attempt"
+      ]
+    },
+    {
+      "priority": 5,
+      "lap": 30,
+      "title": "Hulkenberg Dramatic Drop",
+      "description": "8-position drop in single lap",
+      "data_points": [
+        "position_change",
+        "potential_causes",
+        "race_impact"
+      ]
+    }
+  ]
+}
